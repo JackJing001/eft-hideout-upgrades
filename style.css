@@ -1,0 +1,128 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #181818;
+    color: #fff;
+    width: 100%;
+    font-family: Roboto, sans-serif;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100%;
+    height: 100%; */
+}
+
+#summary {
+    background-color: #202020;
+    border: 1px solid #ddd;
+    padding: 8px 16px 16px 16px;
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 99;
+}
+
+#summary.hidden {
+    display: none;
+}
+
+#summary h1 {
+    margin-block-start: 0;
+    margin-block-end: 0.4em;
+}
+
+#summary ul {
+    list-style-position: inside;
+    padding-inline-start: 8px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-transform: capitalize;
+}
+
+#container {
+    background-color: #202020;
+    position: relative;
+    width: max-content;
+    margin: 16px;
+    padding: 16px;
+    display: grid;
+    grid-template-rows: repeat(10, max-content);
+    grid-template-columns: repeat(15, minmax(auto, min-content));
+    gap: 100px 100px;
+    /* overflow: auto; */
+}
+
+.station {
+    border: 2px solid;
+    padding: 8px;
+    background-color: #2a2a2a;
+    white-space: nowrap;
+    text-transform: capitalize;
+    z-index: 9;
+}
+
+.station:hover {
+    cursor: pointer;
+}
+
+.station.lvl1 {
+    /* border-color: #ffa500; */
+    border-color: #84d1ff;
+}
+.station.lvl2 {
+    /* border-color: #0000ff; */
+    border-color: #3737ff;
+}
+.station.lvl3 {
+    /* border-color: orangered; */
+    border-color: #800080;
+}
+.station.lvl4 {
+    /* border-color: #800080; */
+    border-color: #fe5744;
+}
+
+.station ul {
+    list-style-position: inside;
+    padding-inline-start: 8px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 0.9em;
+}
+
+.station .station-name {
+    /* white-space: nowrap; */
+    /* text-transform: capitalize; */
+    font-size: 1.25em;
+    margin-bottom: 0.25em;
+}
+
+:where(.station, #summary) li::marker {
+    color: #fff;
+}
+
+:where(.station, #summary) .prereq-items li {
+    color: #ddd;
+}
+
+:where(.station, #summary) .prereq-skills li {
+    color: #d89e00;
+}
+
+:where(.station, #summary) .prereq-traders li {
+    color: #34a565;
+}
+
+.fadeout {
+    opacity: 0.3;
+}

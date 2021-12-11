@@ -1,0 +1,1564 @@
+{
+    "stash_1": {
+        "id": "stash_1",
+        "name": "stash",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": [],
+            "traders": [],
+            "skills": [],
+            "items": []
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 1,
+            "gridColumn": 2
+        }
+    },
+    "rest_1": {
+        "id": "rest_1",
+        "name": "rest space",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": [],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 10000
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 1,
+            "gridColumn": 3
+        }
+    },
+    "lavatory_1": {
+        "id": "lavatory_1",
+        "name": "lavatory",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": [],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 2000
+                },
+                {
+                    "item": "toilet paper",
+                    "amount": 1
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 1,
+            "gridColumn": 4
+        }
+    },
+    "water_1": {
+        "id": "water_1",
+        "name": "water collector",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": [],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "corrugated hose",
+                    "amount": 4
+                },
+                {
+                    "item": "bolt",
+                    "amount": 5
+                },
+                {
+                    "item": "screw nut",
+                    "amount": 5
+                },
+                {
+                    "item": "duct tape",
+                    "amount": 3
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 1,
+            "gridColumn": 5
+        }
+    },
+    "heating_1": {
+        "id": "heating_1",
+        "name": "heating",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": [],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 25000
+                },
+                {
+                    "item": "classic matches",
+                    "amount": 6
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 1,
+            "gridColumn": 6
+        }
+    },
+    "workbench_1": {
+        "id": "workbench_1",
+        "name": "workbench",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": [],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "screw nut",
+                    "amount": 2
+                },
+                {
+                    "item": "bolt",
+                    "amount": 2
+                },
+                {
+                    "item": "Leatherman Multitool",
+                    "amount": 1
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 1,
+            "gridColumn": 7
+        }
+    },
+    "vents_1": {
+        "id": "vents_1",
+        "name": "vents",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": [],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 25000
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 1,
+            "gridColumn": 8
+        }
+    },
+    "illumination_1": {
+        "id": "illumination_1",
+        "name": "illumination",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": [],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 10000
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 1,
+            "gridColumn": 9
+        }
+    },
+    "generator_1": {
+        "id": "generator_1",
+        "name": "generator",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": [],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 10000
+                },
+                {
+                    "item": "spark plug",
+                    "amount": 1
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 1,
+            "gridColumn": 11
+        }
+    },
+    "med_1": {
+        "id": "med_1",
+        "name": "medstation",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": [],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 25000
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 1,
+            "gridColumn": 14
+        }
+    },
+    "security_1": {
+        "id": "security_1",
+        "name": "security",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": [],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 20000
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 1,
+            "gridColumn": 12
+        }
+    },
+    "nutrition_1": {
+        "id": "nutrition_1",
+        "name": "nutrition unit",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": ["generator_1"],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 25000
+                },
+                {
+                    "item": "phase control relay",
+                    "amount": 2
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 2,
+            "gridColumn": 1
+        }
+    },
+    "stash_2": {
+        "id": "stash_2",
+        "name": "stash",
+        "lvl": 2,
+        "prerequisites": {
+            "stations": ["stash_1"],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 3500000
+                },
+                {
+                    "item": "hand drill",
+                    "amount": 1
+                },
+                {
+                    "item": "a pack of screws",
+                    "amount": 7
+                },
+                {
+                    "item": "WD-40 100ml.",
+                    "amount": 4
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 2,
+            "gridColumn": 2
+        }
+    },
+    "lavatory_2": {
+        "id": "lavatory_2",
+        "name": "lavatory",
+        "lvl": 2,
+        "prerequisites": {
+            "stations": ["lavatory_1", "water_1"],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "corrugated hose",
+                    "amount": 3
+                },
+                {
+                    "item": "a pack of screws",
+                    "amount": 5
+                },
+                {
+                    "item": "electric drill",
+                    "amount": 1
+                },
+                {
+                    "item": "KEKTAPE duct tape",
+                    "amount": 1
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 2,
+            "gridColumn": 4
+        }
+    },
+    "heating_2": {
+        "id": "heating_2",
+        "name": "heating",
+        "lvl": 2,
+        "prerequisites": {
+            "stations": ["heating_1"],
+            "traders": [],
+            "skills": [
+                {
+                    "name": "endurance",
+                    "lvl": 1
+                }
+            ],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 50000
+                },
+                {
+                    "item": "dry fuel",
+                    "amount": 3
+                },
+                {
+                    "item": "hunter matches",
+                    "amount": 2
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 2,
+            "gridColumn": 6
+        }
+    },
+    "vents_2": {
+        "id": "vents_2",
+        "name": "vents",
+        "lvl": 2,
+        "prerequisites": {
+            "stations": ["vents_1"],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "electric motor",
+                    "amount": 1
+                },
+                {
+                    "item": "car battery",
+                    "amount": 1
+                },
+                {
+                    "item": "CPU fan",
+                    "amount": 3
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 2,
+            "gridColumn": 8
+        }
+    },
+    "illumination_2": {
+        "id": "illumination_2",
+        "name": "illumination",
+        "lvl": 2,
+        "prerequisites": {
+            "stations": ["illumination_1", "generator_1"],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "light bulb",
+                    "amount": 14
+                },
+                {
+                    "item": "wires",
+                    "amount": 5
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 2,
+            "gridColumn": 9
+        }
+    },
+    "med_2": {
+        "id": "med_2",
+        "name": "medstation",
+        "lvl": 2,
+        "prerequisites": {
+            "stations": ["med_1", "generator_1"],
+            "traders": [
+                {
+                    "name": "Therapist",
+                    "lvl": 2
+                }
+            ],
+            "skills": [
+                {
+                    "name": "health",
+                    "lvl": 2
+                }
+            ],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 50000
+                },
+                {
+                    "item": "medical bloodset",
+                    "amount": 2
+                },
+                {
+                    "item": "saline solution",
+                    "amount": 3
+                },
+                {
+                    "item": "esmarch torniquet",
+                    "amount": 2
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 2,
+            "gridColumn": 14
+        }
+    },
+    "security_2": {
+        "id": "security_2",
+        "name": "security",
+        "lvl": 2,
+        "prerequisites": {
+            "stations": ["security_1"],
+            "traders": [],
+            "skills": [
+                {
+                    "name": "endurance",
+                    "lvl": 2
+                }
+            ],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 45000
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 2,
+            "gridColumn": 12
+        }
+    },
+    "nutrition_2": {
+        "id": "nutrition_2",
+        "name": "nutrition unit",
+        "lvl": 2,
+        "prerequisites": {
+            "stations": ["nutrition_1", "lavatory_2"],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "wrench",
+                    "amount": 4
+                },
+                {
+                    "item": "corrugated hose",
+                    "amount": 2
+                },
+                {
+                    "item": "alkali",
+                    "amount": 2
+                },
+                {
+                    "item": "phase control relay",
+                    "amount": 1
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 3,
+            "gridColumn": 1
+        }
+    },
+    "stash_3": {
+        "id": "stash_3",
+        "name": "stash",
+        "lvl": 3,
+        "prerequisites": {
+            "stations": ["stash_2", "heating_2", "vents_2"],
+            "traders": [
+                {
+                    "name": "Prapor",
+                    "lvl": 3
+                },
+                {
+                    "name": "Ragman",
+                    "lvl": 3
+                }
+            ],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 8500000
+                },
+                {
+                    "item": "electric drill",
+                    "amount": 2
+                },
+                {
+                    "item": "a pack of screws",
+                    "amount": 8
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 3,
+            "gridColumn": 2
+        }
+    },
+    "workbench_2": {
+        "id": "workbench_2",
+        "name": "workbench",
+        "lvl": 2,
+        "prerequisites": {
+            "stations": ["workbench_1", "illumination_2"],
+            "traders": [
+                {
+                    "name": "Mechanic",
+                    "lvl": 2
+                }
+            ],
+            "skills": [],
+            "items": [
+                {
+                    "item": "a set of tools",
+                    "amount": 3
+                },
+                {
+                    "item": "electric drill",
+                    "amount": 2
+                },
+                {
+                    "item": "bolts",
+                    "amount": 6
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 3,
+            "gridColumn": 7
+        }
+    },
+    "range_1": {
+        "id": "range_1",
+        "name": "shooting range",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": ["illumination_2"],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "a pack of nails",
+                    "amount": 4
+                },
+                {
+                    "item": "screw nut",
+                    "amount": 5
+                },
+                {
+                    "item": "bolts",
+                    "amount": 5
+                },
+                {
+                    "item": "duct tape",
+                    "amount": 3
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 3,
+            "gridColumn": 10
+        }
+    },
+    "generator_2": {
+        "id": "generator_2",
+        "name": "generator",
+        "lvl": 2,
+        "prerequisites": {
+            "stations": ["generator_1", "vents_2", "security_2"],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "phase control relay",
+                    "amount": 5
+                },
+                {
+                    "item": "electric motor",
+                    "amount": 1
+                },
+                {
+                    "item": "wires",
+                    "amount": 15
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 3,
+            "gridColumn": 11
+        }
+    },
+    "med_3": {
+        "id": "med_3",
+        "name": "medstation",
+        "lvl": 3,
+        "prerequisites": {
+            "stations": ["med_2"],
+            "traders": [
+                {
+                    "name": "Therapist",
+                    "lvl": 3
+                },
+                {
+                    "name": "Skier",
+                    "lvl": 2
+                }
+            ],
+            "skills": [
+                {
+                    "name": "vitality",
+                    "lvl": 3
+                }
+            ],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 150000
+                },
+                {
+                    "item": "saline solution",
+                    "amount": 4
+                },
+                {
+                    "item": "LEDX",
+                    "amount": 1
+                },
+                {
+                    "item": "opthalmoscope",
+                    "amount": 1
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 3,
+            "gridColumn": 14
+        }
+    },
+    "rest_2": {
+        "id": "rest_2",
+        "name": "rest space",
+        "lvl": 2,
+        "prerequisites": {
+            "stations": ["rest_1", "generator_2", "heating_2"],
+            "traders": [
+                {
+                    "name": "Ragman",
+                    "lvl": 2
+                }
+            ],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 35000
+                },
+                {
+                    "item": "energy-saving lamp",
+                    "amount": 3
+                },
+                {
+                    "item": "DVD drive",
+                    "amount": 1
+                },
+                {
+                    "item": "magnet",
+                    "amount": 1
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 4,
+            "gridColumn": 3
+        }
+    },
+    "water_2": {
+        "id": "water_2",
+        "name": "water collector",
+        "lvl": 2,
+        "prerequisites": {
+            "stations": ["water_1", "workbench_2"],
+            "traders": [
+                {
+                    "name": "Jaeger",
+                    "lvl": 2
+                }
+            ],
+            "skills": [
+                {
+                    "name": "attention",
+                    "lvl": 3
+                }
+            ],
+            "items": [
+                {
+                    "item": "corrugated hose",
+                    "amount": 6
+                },
+                {
+                    "item": "electric motor",
+                    "amount": 2
+                },
+                {
+                    "item": "a set of tools",
+                    "amount": 2
+                },
+                {
+                    "item": "KEKTAPE duct tape",
+                    "amount": 1
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 4,
+            "gridColumn": 5
+        }
+    },
+    "heating_3": {
+        "id": "heating_3",
+        "name": "heating",
+        "lvl": 3,
+        "prerequisites": {
+            "stations": ["heating_2", "generator_2", "workbench_2"],
+            "traders": [
+                {
+                    "name": "Ragman",
+                    "lvl": 2
+                }
+            ],
+            "skills": [],
+            "items": [
+                {
+                    "item": "radiator helix",
+                    "amount": 8
+                },
+                {
+                    "item": "wires",
+                    "amount": 8
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 4,
+            "gridColumn": 6
+        }
+    },
+    "workbench_3": {
+        "id": "workbench_3",
+        "name": "workbench",
+        "lvl": 3,
+        "prerequisites": {
+            "stations": ["workbench_2", "stash_2"],
+            "traders": [
+                {
+                    "name": "Mechanic",
+                    "lvl": 3
+                }
+            ],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 195000
+                },
+                {
+                    "item": "pliers elite",
+                    "amount": 2
+                },
+                {
+                    "item": "FireKlean gun lube",
+                    "amount": 1
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 4,
+            "gridColumn": 7
+        }
+    },
+    "vents_3": {
+        "id": "vents_3",
+        "name": "vents",
+        "lvl": 3,
+        "prerequisites": {
+            "stations": ["vents_2", "generator_2"],
+            "traders": [],
+            "skills": [
+                {
+                    "name": "strength",
+                    "lvl": 2
+                }
+            ],
+            "items": [
+                {
+                    "item": "electric motor",
+                    "amount": 4
+                },
+                {
+                    "item": "wires",
+                    "amount": 14
+                },
+                {
+                    "item": "printed circuit board",
+                    "amount": 5
+                },
+                {
+                    "item": "car battery",
+                    "amount": 4
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 4,
+            "gridColumn": 8
+        }
+    },
+    "illumination_3": {
+        "id": "illumination_3",
+        "name": "illumination",
+        "lvl": 3,
+        "prerequisites": {
+            "stations": ["illumination_2", "generator_2"],
+            "traders": [
+                {
+                    "name": "Mechanic",
+                    "lvl": 2
+                }
+            ],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 50000
+                },
+                {
+                    "item": "capacitors",
+                    "amount": 7
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 4,
+            "gridColumn": 9
+        }
+    },
+    "intelligence_1": {
+        "id": "intelligence_1",
+        "name": "intelligence center",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": ["security_2", "vents_2"],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "folder with intelligence",
+                    "amount": 1
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 4,
+            "gridColumn": 13
+        }
+    },
+    "lavatory_3": {
+        "id": "lavatory_3",
+        "name": "lavatory",
+        "lvl": 3,
+        "prerequisites": {
+            "stations": ["lavatory_2", "water_2"],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "corrugated hose",
+                    "amount": 6
+                },
+                {
+                    "item": "pressure gauge",
+                    "amount": 2
+                },
+                {
+                    "item": "a set of tools",
+                    "amount": 1
+                },
+                {
+                    "item": "Xenomorph sealing foam",
+                    "amount": 3
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 5,
+            "gridColumn": 4
+        }
+    },
+    "security_3": {
+        "id": "security_3",
+        "name": "security",
+        "lvl": 3,
+        "prerequisites": {
+            "stations": ["security_2", "illumination_3"],
+            "traders": [
+                {
+                    "name": "Mechanic",
+                    "lvl": 2
+                }
+            ],
+            "skills": [],
+            "items": [
+                {
+                    "item": "working LCD",
+                    "amount": 2
+                },
+                {
+                    "item": "wires",
+                    "amount": 4
+                },
+                {
+                    "item": "Nixxor lens",
+                    "amount": 8
+                },
+                {
+                    "item": "SSD drive",
+                    "amount": 1
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 5,
+            "gridColumn": 12
+        }
+    },
+    "nutrition_3": {
+        "id": "nutrition_3",
+        "name": "nutrition unit",
+        "lvl": 3,
+        "prerequisites": {
+            "stations": ["nutrition_2", "generator_2", "stash_2", "lavatory_3"],
+            "traders": [],
+            "skills": [
+                {
+                    "name": "metabolism",
+                    "lvl": 3
+                }
+            ],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 125000
+                },
+                {
+                    "item": "coffee majaica",
+                    "amount": 3
+                },
+                {
+                    "item": "sodium bicarbonate",
+                    "amount": 3
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 6,
+            "gridColumn": 1
+        }
+    },
+    "generator_3": {
+        "id": "generator_3",
+        "name": "generator",
+        "lvl": 3,
+        "prerequisites": {
+            "stations": ["generator_2", "security_3", "vents_3"],
+            "traders": [{ "name": "Mechanic", "lvl": 3 }],
+            "skills": [],
+            "items": [
+                {
+                    "item": "phase control relay",
+                    "amount": 6
+                },
+                {
+                    "item": "electric motor",
+                    "amount": 2
+                },
+                {
+                    "item": "spark plug",
+                    "amount": 5
+                },
+                {
+                    "item": "power supply unit",
+                    "amount": 5
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 6,
+            "gridColumn": 11
+        }
+    },
+    "rest_3": {
+        "id": "rest_3",
+        "name": "rest space",
+        "lvl": 3,
+        "prerequisites": {
+            "stations": ["rest_2", "generator_3", "heating_3"],
+            "traders": [{ "name": "Skier", "lvl": 3 }],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Dollars",
+                    "amount": 3000
+                },
+                {
+                    "item": "powercord",
+                    "amount": 4
+                },
+                {
+                    "item": "capacitors",
+                    "amount": 5
+                },
+                {
+                    "item": "wires",
+                    "amount": 7
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 7,
+            "gridColumn": 3
+        }
+    },
+    "water_3": {
+        "id": "water_3",
+        "name": "water collector",
+        "lvl": 3,
+        "prerequisites": {
+            "stations": ["water_2", "generator_3", "heating_3"],
+            "traders": [{ "name": "Jaeger", "lvl": 3 }],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 125000
+                },
+                {
+                    "item": "pliers elite",
+                    "amount": 2
+                },
+                {
+                    "item": "Shustrilo sealing foam",
+                    "amount": 5
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 7,
+            "gridColumn": 5
+        }
+    },
+    "solar_1": {
+        "id": "solar_1",
+        "name": "solar power",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": ["generator_3", "workbench_3"],
+            "traders": [{ "name": "Peacekeeper", "lvl": 4 }],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Euros",
+                    "amount": 25000
+                },
+                {
+                    "item": "military cable",
+                    "amount": 8
+                },
+                {
+                    "item": "phased array element",
+                    "amount": 4
+                },
+                {
+                    "item": "military power filter",
+                    "amount": 8
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 7,
+            "gridColumn": 7
+        }
+    },
+    "air_filter_1": {
+        "id": "air_filter_1",
+        "name": "air filtering unit",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": ["generator_3", "vents_3"],
+            "traders": [{ "name": "Skier", "lvl": 3 }],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Dollars",
+                    "amount": 10000
+                },
+                {
+                    "item": "air filter for gas mask",
+                    "amount": 2
+                },
+                {
+                    "item": "military power filter",
+                    "amount": 1
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 7,
+            "gridColumn": 8
+        }
+    },
+    "intelligence_2": {
+        "id": "intelligence_2",
+        "name": "intelligence center",
+        "lvl": 2,
+        "prerequisites": {
+            "stations": [
+                "intelligence_1",
+                "security_3",
+                "med_3",
+                "nutrition_3"
+            ],
+            "traders": [{ "name": "Mechanic", "lvl": 2 }],
+            "skills": [
+                {
+                    "name": "attention",
+                    "lvl": 3
+                }
+            ],
+            "items": [
+                {
+                    "item": "folder with intelligence",
+                    "amount": 3
+                },
+                {
+                    "item": "secure flash drive",
+                    "amount": 3
+                },
+                {
+                    "item": "powercord",
+                    "amount": 4
+                },
+                {
+                    "item": "damaged hard drive",
+                    "amount": 4
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 7,
+            "gridColumn": 13
+        }
+    },
+    "library_1": {
+        "id": "library_1",
+        "name": "library",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": ["rest_3"],
+            "traders": [],
+            "skills": [
+                {
+                    "name": "memory",
+                    "lvl": 8
+                }
+            ],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 400000
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 8,
+            "gridColumn": 3
+        }
+    },
+    "booze_1": {
+        "id": "booze_1",
+        "name": " booze generator",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": ["water_3", "nutrition_3"],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "silicone tube",
+                    "amount": 4
+                },
+                {
+                    "item": "analog thermometer",
+                    "amount": 2
+                },
+                {
+                    "item": "pressure gauge",
+                    "amount": 2
+                },
+                {
+                    "item": "corrugated hose",
+                    "amount": 5
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 8,
+            "gridColumn": 5
+        }
+    },
+    "scav_case_1": {
+        "id": "scav_case_1",
+        "name": "scav case",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": ["intelligence_2"],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "bronze lion",
+                    "amount": 4
+                },
+                {
+                    "item": "gold skull ring",
+                    "amount": 6
+                },
+                {
+                    "item": "golden neck chain",
+                    "amount": 8
+                },
+                {
+                    "item": "Roler",
+                    "amount": 4
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 8,
+            "gridColumn": 15
+        }
+    },
+    "intelligence_3": {
+        "id": "intelligence_3",
+        "name": "intelligence center",
+        "lvl": 3,
+        "prerequisites": {
+            "stations": ["intelligence_2", "generator_3"],
+            "traders": [{ "name": "Prapor", "lvl": 3 }],
+            "skills": [],
+            "items": [
+                {
+                    "item": "SG-C10",
+                    "amount": 2
+                },
+                {
+                    "item": "VPX",
+                    "amount": 2
+                },
+                {
+                    "item": "gas analyzer",
+                    "amount": 3
+                },
+                {
+                    "item": "military cable",
+                    "amount": 4
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 8,
+            "gridColumn": 13
+        }
+    },
+    "bitcoin_1": {
+        "id": "bitcoin_1",
+        "name": "bitcoin farm",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": ["intelligence_2"],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "CPU fan",
+                    "amount": 15
+                },
+                {
+                    "item": "power supply unit",
+                    "amount": 10
+                },
+                {
+                    "item": "powercord",
+                    "amount": 5
+                },
+                {
+                    "item": "electric drill",
+                    "amount": 1
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 8,
+            "gridColumn": 14
+        }
+    },
+    "stash_4": {
+        "id": "stash_4",
+        "name": "stash",
+        "lvl": 4,
+        "prerequisites": {
+            "stations": [
+                "stash_3",
+                "generator_3",
+                "workbench_3",
+                "heating_3",
+                "intelligence_3"
+            ],
+            "traders": [
+                { "name": "Peacekeeper", "lvl": 4 },
+                { "name": "Ragman", "lvl": 4 }
+            ],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Euros",
+                    "amount": 150000
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 9,
+            "gridColumn": 2
+        }
+    },
+    "bitcoin_2": {
+        "id": "bitcoin_2",
+        "name": "bitcoin farm",
+        "lvl": 2,
+        "prerequisites": {
+            "stations": ["bitcoin_1", "generator_3"],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "CPU fan",
+                    "amount": 15
+                },
+                {
+                    "item": "power supply unit",
+                    "amount": 8
+                },
+                {
+                    "item": "printed circuit board",
+                    "amount": 10
+                },
+                {
+                    "item": "phase control relay",
+                    "amount": 5
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 9,
+            "gridColumn": 14
+        }
+    },
+    "bitcoin_3": {
+        "id": "bitcoin_3",
+        "name": "bitcoin farm",
+        "lvl": 3,
+        "prerequisites": {
+            "stations": ["bitcoin_2", "solar_1", "water_3"],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "CPU fan",
+                    "amount": 25
+                },
+                {
+                    "item": "silicone tube",
+                    "amount": 15
+                },
+                {
+                    "item": "electric motor",
+                    "amount": 4
+                },
+                {
+                    "item": "pressure gauge",
+                    "amount": 8
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 10,
+            "gridColumn": 14
+        }
+    }
+}
