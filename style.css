@@ -30,6 +30,7 @@ body {
     top: 16px;
     right: 16px;
     z-index: 99;
+    white-space: nowrap;
 }
 
 #summary.hidden {
@@ -39,6 +40,12 @@ body {
 #summary h1 {
     margin-block-start: 0;
     margin-block-end: 0.4em;
+}
+
+#summary .summary-lists {
+    max-height: 50vh;
+    padding-right: 16px;
+    overflow: auto;
 }
 
 #summary ul {

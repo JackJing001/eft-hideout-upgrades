@@ -82,6 +82,9 @@ function showSummary() {
         }
     }
 
+    let lists = document.createElement('div');
+    lists.classList.add('summary-lists');
+
     let list = document.createElement('ul');
     list.classList.add('prereq-items');
 
@@ -94,7 +97,7 @@ function showSummary() {
         node.innerText = `${i.amount.toLocaleString('en-US')} ${i.item}`;
         list.appendChild(node);
     }
-    elements.summary.appendChild(list);
+    lists.appendChild(list);
 
     list = document.createElement('ul');
     list.classList.add('prereq-skills');
@@ -103,7 +106,7 @@ function showSummary() {
         node.innerText = `${skills[s].name} ${skills[s].lvl}`;
         list.appendChild(node);
     }
-    elements.summary.appendChild(list);
+    lists.appendChild(list);
 
     list = document.createElement('ul');
     list.classList.add('prereq-traders');
@@ -112,7 +115,8 @@ function showSummary() {
         node.innerText = `${traders[t].name} ${traders[t].lvl}`;
         list.appendChild(node);
     }
-    elements.summary.appendChild(list);
+    lists.appendChild(list);
+    elements.summary.appendChild(lists);
     elements.summary.classList.remove('hidden');
 }
 
