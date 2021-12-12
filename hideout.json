@@ -28,6 +28,14 @@
                 {
                     "item": "Roubles",
                     "amount": 10000
+                },
+                {
+                    "item": "classic matches",
+                    "amount": 1
+                },
+                {
+                    "item": "duct tape",
+                    "amount": 1
                 }
             ]
         },
@@ -54,6 +62,14 @@
                 {
                     "item": "toilet paper",
                     "amount": 1
+                },
+                {
+                    "item": "soap",
+                    "amount": 1
+                },
+                {
+                    "item": "toothpaste",
+                    "amount": 1
                 }
             ]
         },
@@ -78,11 +94,11 @@
                     "amount": 4
                 },
                 {
-                    "item": "bolt",
+                    "item": "bolts",
                     "amount": 5
                 },
                 {
-                    "item": "screw nut",
+                    "item": "screw nuts",
                     "amount": 5
                 },
                 {
@@ -113,7 +129,7 @@
                 },
                 {
                     "item": "classic matches",
-                    "amount": 6
+                    "amount": 2
                 }
             ]
         },
@@ -134,11 +150,11 @@
             "skills": [],
             "items": [
                 {
-                    "item": "screw nut",
+                    "item": "screw nuts",
                     "amount": 2
                 },
                 {
-                    "item": "bolt",
+                    "item": "bolts",
                     "amount": 2
                 },
                 {
@@ -188,6 +204,10 @@
                 {
                     "item": "Roubles",
                     "amount": 10000
+                },
+                {
+                    "item": "Crickent lighter",
+                    "amount": 1
                 }
             ]
         },
@@ -236,6 +256,18 @@
                 {
                     "item": "Roubles",
                     "amount": 25000
+                },
+                {
+                    "item": "pile of meds",
+                    "amount": 1
+                },
+                {
+                    "item": "aseptic bandage",
+                    "amount": 2
+                },
+                {
+                    "item": "disposable syringe",
+                    "amount": 1
                 }
             ]
         },
@@ -258,6 +290,10 @@
                 {
                     "item": "Roubles",
                     "amount": 20000
+                },
+                {
+                    "item": "construction measuring tape",
+                    "amount": 1
                 }
             ]
         },
@@ -305,19 +341,23 @@
             "items": [
                 {
                     "item": "Roubles",
-                    "amount": 3500000
+                    "amount": 2500000
                 },
                 {
                     "item": "hand drill",
                     "amount": 1
                 },
                 {
-                    "item": "a pack of screws",
-                    "amount": 7
+                    "item": "pack of screws",
+                    "amount": 10
                 },
                 {
-                    "item": "WD-40 100ml.",
+                    "item": "WD-40 (100ml)",
                     "amount": 4
+                },
+                {
+                    "item": "pack of nails",
+                    "amount": 5
                 }
             ]
         },
@@ -342,7 +382,7 @@
                     "amount": 3
                 },
                 {
-                    "item": "a pack of screws",
+                    "item": "pack of screws",
                     "amount": 5
                 },
                 {
@@ -585,7 +625,7 @@
                     "amount": 2
                 },
                 {
-                    "item": "a pack of screws",
+                    "item": "pack of screws",
                     "amount": 8
                 }
             ]
@@ -642,11 +682,11 @@
             "skills": [],
             "items": [
                 {
-                    "item": "a pack of nails",
+                    "item": "pack of nails",
                     "amount": 4
                 },
                 {
-                    "item": "screw nut",
+                    "item": "screw nuts",
                     "amount": 5
                 },
                 {
