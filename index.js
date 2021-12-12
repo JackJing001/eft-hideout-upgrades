@@ -30,19 +30,33 @@ function onEnterStation(event) {
 
 function onLeaveStation(event) {
     if (!clickedStation) {
+        highlightedStations = [];
         removeHighlights();
     }
 }
 
 function onClickStation(event) {
+    // only lmb triggers an action
+    if (event.button) return;
+
     clearSummary();
     removeHighlights();
+
     if (clickedStation === event.currentTarget.id) {
+        highlightedStations = [];
         clickedStation = '';
         event.currentTarget.dispatchEvent(new Event('mouseenter'));
     } else {
         clickedStation = event.currentTarget.id;
-        highlightedStations = findRequiredStations(clickedStation);
+        if (event.ctrlKey) {
+            highlightedStations = highlightedStations.concat(
+                findRequiredStations(clickedStation)
+            );
+            //remove duplicates to not count them multiple times in the summary
+            highlightedStations = [...new Set(highlightedStations)];
+        } else {
+            highlightedStations = findRequiredStations(clickedStation);
+        }
         highlight();
         showSummary();
     }
@@ -148,7 +162,6 @@ function removeHighlights() {
     for (const key in hideout) {
         document.getElementById(hideout[key].id).classList.remove('fadeout');
     }
-    highlightedStations = [];
     drawLines();
 }
 
