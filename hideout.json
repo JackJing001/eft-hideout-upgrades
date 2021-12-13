@@ -43,7 +43,7 @@
             "x": 0,
             "y": 0,
             "gridRow": 1,
-            "gridColumn": 3
+            "gridColumn": 1
         }
     },
     "lavatory_1": {
@@ -77,7 +77,7 @@
             "x": 0,
             "y": 0,
             "gridRow": 1,
-            "gridColumn": 4
+            "gridColumn": 3
         }
     },
     "water_1": {
@@ -327,7 +327,7 @@
             "x": 0,
             "y": 0,
             "gridRow": 3,
-            "gridColumn": 1
+            "gridColumn": 4
         }
     },
     "stash_2": {
@@ -399,7 +399,7 @@
             "x": 0,
             "y": 0,
             "gridRow": 2,
-            "gridColumn": 4
+            "gridColumn": 3
         }
     },
     "heating_2": {
@@ -599,7 +599,7 @@
             "x": 0,
             "y": 0,
             "gridRow": 4,
-            "gridColumn": 1
+            "gridColumn": 4
         }
     },
     "stash_3": {
@@ -824,7 +824,7 @@
             "x": 0,
             "y": 0,
             "gridRow": 4,
-            "gridColumn": 3
+            "gridColumn": 1
         }
     },
     "water_2": {
@@ -1060,7 +1060,7 @@
             "x": 0,
             "y": 0,
             "gridRow": 6,
-            "gridColumn": 4
+            "gridColumn": 3
         }
     },
     "security_3": {
@@ -1134,7 +1134,7 @@
             "x": 0,
             "y": 0,
             "gridRow": 7,
-            "gridColumn": 1
+            "gridColumn": 4
         }
     },
     "generator_3": {
@@ -1202,7 +1202,7 @@
             "x": 0,
             "y": 0,
             "gridRow": 7,
-            "gridColumn": 3
+            "gridColumn": 1
         }
     },
     "water_3": {
@@ -1367,7 +1367,7 @@
             "x": 0,
             "y": 0,
             "gridRow": 8,
-            "gridColumn": 3
+            "gridColumn": 1
         }
     },
     "booze_1": {
