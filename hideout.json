@@ -218,32 +218,6 @@
             "gridColumn": 9
         }
     },
-    "generator_1": {
-        "id": "generator_1",
-        "name": "generator",
-        "lvl": 1,
-        "prerequisites": {
-            "stations": [],
-            "traders": [],
-            "skills": [],
-            "items": [
-                {
-                    "item": "Roubles",
-                    "amount": 10000
-                },
-                {
-                    "item": "spark plug",
-                    "amount": 1
-                }
-            ]
-        },
-        "geometry": {
-            "x": 0,
-            "y": 0,
-            "gridRow": 1,
-            "gridColumn": 11
-        }
-    },
     "med_1": {
         "id": "med_1",
         "name": "medstation",
@@ -304,6 +278,32 @@
             "gridColumn": 12
         }
     },
+    "generator_1": {
+        "id": "generator_1",
+        "name": "generator",
+        "lvl": 1,
+        "prerequisites": {
+            "stations": ["security_1"],
+            "traders": [],
+            "skills": [],
+            "items": [
+                {
+                    "item": "Roubles",
+                    "amount": 100000
+                },
+                {
+                    "item": "spark plug",
+                    "amount": 1
+                }
+            ]
+        },
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "gridRow": 2,
+            "gridColumn": 11
+        }
+    },
     "nutrition_1": {
         "id": "nutrition_1",
         "name": "nutrition unit",
@@ -326,7 +326,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 2,
+            "gridRow": 3,
             "gridColumn": 1
         }
     },
@@ -489,7 +489,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 2,
+            "gridRow": 3,
             "gridColumn": 9
         }
     },
@@ -514,7 +514,7 @@
             "items": [
                 {
                     "item": "Roubles",
-                    "amount": 50000
+                    "amount": 150000
                 },
                 {
                     "item": "medical bloodset",
@@ -525,15 +525,19 @@
                     "amount": 3
                 },
                 {
-                    "item": "esmarch torniquet",
-                    "amount": 2
+                    "item": "Esmarch torniquet",
+                    "amount": 5
+                },
+                {
+                    "item": "medical tools",
+                    "amount": 3
                 }
             ]
         },
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 2,
+            "gridRow": 3,
             "gridColumn": 14
         }
     },
@@ -594,7 +598,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 3,
+            "gridRow": 4,
             "gridColumn": 1
         }
     },
@@ -668,7 +672,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 3,
+            "gridRow": 4,
             "gridColumn": 7
         }
     },
@@ -702,7 +706,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 3,
+            "gridRow": 4,
             "gridColumn": 10
         }
     },
@@ -780,7 +784,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 3,
+            "gridRow": 4,
             "gridColumn": 14
         }
     },
@@ -863,7 +867,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 4,
+            "gridRow": 5,
             "gridColumn": 5
         }
     },
@@ -894,7 +898,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 4,
+            "gridRow": 5,
             "gridColumn": 6
         }
     },
@@ -929,7 +933,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 4,
+            "gridRow": 5,
             "gridColumn": 7
         }
     },
@@ -1055,7 +1059,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 5,
+            "gridRow": 6,
             "gridColumn": 4
         }
     },
@@ -1129,7 +1133,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 6,
+            "gridRow": 7,
             "gridColumn": 1
         }
     },
@@ -1335,7 +1339,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 7,
+            "gridRow": 8,
             "gridColumn": 13
         }
     },
@@ -1430,7 +1434,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 8,
+            "gridRow": 9,
             "gridColumn": 15
         }
     },
@@ -1464,7 +1468,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 8,
+            "gridRow": 9,
             "gridColumn": 13
         }
     },
@@ -1498,7 +1502,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 8,
+            "gridRow": 9,
             "gridColumn": 14
         }
     },
@@ -1529,7 +1533,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 9,
+            "gridRow": 10,
             "gridColumn": 2
         }
     },
@@ -1563,7 +1567,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 9,
+            "gridRow": 10,
             "gridColumn": 14
         }
     },
@@ -1597,7 +1601,7 @@
         "geometry": {
             "x": 0,
             "y": 0,
-            "gridRow": 10,
+            "gridRow": 11,
             "gridColumn": 14
         }
     }
