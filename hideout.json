@@ -320,6 +320,10 @@
                 {
                     "item": "phase control relay",
                     "amount": 2
+                },
+                {
+                    "item": "power cord",
+                    "amount": 1
                 }
             ]
         },
@@ -558,7 +562,20 @@
                 {
                     "item": "Roubles",
                     "amount": 45000
+                },
+                {
+                    "item": "TP-200 TNT brick",
+                    "amount": 1
+                },
+                {
+                    "item": "WD-40 (100ml)",
+                    "amount": 1
+                },
+                {
+                    "item": "plier elite",
+                    "amount": 1
                 }
+
             ]
         },
         "geometry": {
