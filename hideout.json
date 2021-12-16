@@ -572,7 +572,7 @@
                     "amount": 1
                 },
                 {
-                    "item": "plier elite",
+                    "item": "pliers elite",
                     "amount": 1
                 }
 
@@ -673,7 +673,7 @@
             "skills": [],
             "items": [
                 {
-                    "item": "a set of tools",
+                    "item": "toolset",
                     "amount": 3
                 },
                 {
@@ -683,6 +683,10 @@
                 {
                     "item": "bolts",
                     "amount": 6
+                },
+                {
+                    "item": "weapon parts",
+                    "amount": 3
                 }
             ]
         },
@@ -747,6 +751,10 @@
                 {
                     "item": "wires",
                     "amount": 15
+                },
+                {
+                    "item": "Bulbex cable cutter",
+                    "amount": 1
                 }
             ]
         },
@@ -872,12 +880,12 @@
                     "amount": 2
                 },
                 {
-                    "item": "a set of tools",
+                    "item": "toolset",
                     "amount": 2
                 },
                 {
                     "item": "KEKTAPE duct tape",
-                    "amount": 1
+                    "amount": 2
                 }
             ]
         },
@@ -1064,7 +1072,7 @@
                     "amount": 2
                 },
                 {
-                    "item": "a set of tools",
+                    "item": "toolset",
                     "amount": 1
                 },
                 {
