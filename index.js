@@ -303,11 +303,12 @@ function drawLines() {
 
             if (!highlightedStations.length) {
                 ctx.strokeStyle = '#fff';
-            } else if (
-                isEndHighlighted &&
-                highlightedStations.includes(stationId)
-            ) {
-                ctx.strokeStyle = '#fff';
+            } else if (highlightedStations.includes(stationId)) {
+                if (isEndHighlighted) {
+                    ctx.strokeStyle = '#fff';
+                } else {
+                    ctx.strokeStyle = '#060';
+                }
             } else {
                 ctx.strokeStyle = '#666';
             }
