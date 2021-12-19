@@ -431,6 +431,10 @@
                 {
                     "item": "hunter matches",
                     "amount": 2
+                },
+                {
+                    "item": "Crickent lighter",
+                    "amount": 3
                 }
             ]
         },
@@ -575,7 +579,6 @@
                     "item": "pliers elite",
                     "amount": 1
                 }
-
             ]
         },
         "geometry": {
@@ -721,6 +724,10 @@
                 {
                     "item": "duct tape",
                     "amount": 3
+                },
+                {
+                    "item": "pack of screws",
+                    "amount": 2
                 }
             ]
         },
@@ -1022,6 +1029,14 @@
                 {
                     "item": "capacitors",
                     "amount": 7
+                },
+                {
+                    "item": "wires",
+                    "amount": 6
+                },
+                {
+                    "item": "energy-saving lamp",
+                    "amount": 12
                 }
             ]
         },
@@ -1042,7 +1057,15 @@
             "skills": [],
             "items": [
                 {
-                    "item": "folder with intelligence",
+                    "item": "intelligence folder",
+                    "amount": 1
+                },
+                {
+                    "item": "diary",
+                    "amount": 1
+                },
+                {
+                    "item": "factory plan map",
                     "amount": 1
                 }
             ]
@@ -1152,6 +1175,10 @@
                 {
                     "item": "sodium bicarbonate",
                     "amount": 3
+                },
+                {
+                    "item": "Smoked Chimney drain cleaner",
+                    "amount": 2
                 }
             ]
         },
@@ -1344,7 +1371,7 @@
             ],
             "items": [
                 {
-                    "item": "folder with intelligence",
+                    "item": "intelligence folder",
                     "amount": 3
                 },
                 {
