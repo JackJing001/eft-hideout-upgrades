@@ -1204,11 +1204,11 @@
                 },
                 {
                     "item": "electric motor",
-                    "amount": 2
+                    "amount": 3
                 },
                 {
                     "item": "spark plug",
-                    "amount": 5
+                    "amount": 10
                 },
                 {
                     "item": "power supply unit",
