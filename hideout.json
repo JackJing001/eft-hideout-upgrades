@@ -797,7 +797,7 @@
             "items": [
                 {
                     "item": "Roubles",
-                    "amount": 150000
+                    "amount": 500000
                 },
                 {
                     "item": "saline solution",
@@ -950,7 +950,7 @@
             "items": [
                 {
                     "item": "Roubles",
-                    "amount": 195000
+                    "amount": 395000
                 },
                 {
                     "item": "pliers elite",
@@ -959,6 +959,10 @@
                 {
                     "item": "FireKlean gun lube",
                     "amount": 1
+                },
+                {
+                    "item": "can of thermite",
+                    "amount": 2
                 }
             ]
         },
