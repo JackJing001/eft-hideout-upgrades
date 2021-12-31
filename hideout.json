@@ -469,6 +469,10 @@
                 {
                     "item": "CPU fan",
                     "amount": 3
+                },
+                {
+                    "item": "metal spare parts",
+                    "amount": 2
                 }
             ]
         },
@@ -731,6 +735,10 @@
                 },
                 {
                     "item": "pack of screws",
+                    "amount": 2
+                },
+                {
+                    "item": "metal spare parts",
                     "amount": 2
                 }
             ]
@@ -1014,6 +1022,10 @@
                 {
                     "item": "car battery",
                     "amount": 4
+                },
+                {
+                    "item": "metal spare parts",
+                    "amount": 5
                 }
             ]
         },
@@ -1215,20 +1227,24 @@
             "skills": [],
             "items": [
                 {
-                    "item": "phase control relay",
-                    "amount": 6
-                },
-                {
-                    "item": "electric motor",
-                    "amount": 3
-                },
-                {
                     "item": "spark plug",
                     "amount": 10
                 },
                 {
+                    "item": "metal spare parts",
+                    "amount": 7
+                },
+                {
+                    "item": "phase control relay",
+                    "amount": 6
+                },
+                {
                     "item": "power supply unit",
                     "amount": 5
+                },
+                {
+                    "item": "electric motor",
+                    "amount": 3
                 }
             ]
         },
@@ -1506,6 +1522,10 @@
                 {
                     "item": "pipe grip wrench",
                     "amount": 1
+                },
+                {
+                    "item": "metal spare parts",
+                    "amount": 2
                 }
             ]
         },
