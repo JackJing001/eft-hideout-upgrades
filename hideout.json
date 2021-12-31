@@ -1559,25 +1559,29 @@
         "name": "intelligence center",
         "lvl": 3,
         "prerequisites": {
-            "stations": ["intelligence_2", "generator_3"],
+            "stations": ["intelligence_2", "generator_3", "workbench_3"],
             "traders": [{ "name": "Prapor", "lvl": 3 }],
             "skills": [],
             "items": [
                 {
-                    "item": "SG-C10",
+                    "item": "military cable",
+                    "amount": 4
+                },
+                {
+                    "item": "military COFDM wireless signal transmitter",
                     "amount": 2
                 },
                 {
-                    "item": "VPX",
+                    "item": "VPX flash storage module",
                     "amount": 2
                 },
                 {
                     "item": "gas analyzer",
-                    "amount": 3
+                    "amount": 1
                 },
                 {
-                    "item": "military cable",
-                    "amount": 4
+                    "item": "secured magnetic tape cassette",
+                    "amount": 1
                 }
             ]
         },
