@@ -382,12 +382,12 @@
             "skills": [],
             "items": [
                 {
-                    "item": "corrugated hose",
-                    "amount": 3
-                },
-                {
                     "item": "pack of screws",
                     "amount": 5
+                },
+                {
+                    "item": "corrugated hose",
+                    "amount": 3
                 },
                 {
                     "item": "electric drill",
@@ -395,6 +395,10 @@
                 },
                 {
                     "item": "KEKTAPE duct tape",
+                    "amount": 1
+                },
+                {
+                    "item": "sewing kit",
                     "amount": 1
                 }
             ]
