@@ -1338,19 +1338,15 @@
                 },
                 {
                     "item": "military cable",
-                    "amount": 8
-                },
-                {
-                    "item": "phased array element",
-                    "amount": 4
+                    "amount": 10
                 },
                 {
                     "item": "military power filter",
                     "amount": 10
                 },
                 {
-                    "item": "military cable",
-                    "amount": 10
+                    "item": "phased array element",
+                    "amount": 4
                 },
                 {
                     "item": "working LCD",
