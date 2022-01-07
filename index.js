@@ -1,10 +1,42 @@
+let localStorage = Window.localStorage;
+if (!localStorage) {
+    console.log('Local storage not available. No persistence');
+}
 let hideout;
-let highlightedStations = [];
-let clickedStation = '';
+
 const elements = {
     container: document.getElementById('container'),
     canvas: document.getElementById('canvas'),
     summary: document.getElementById('summary'),
+};
+
+const store = {
+    highlightedStations: new Set(),
+    clickedStation: '',
+
+    addHighlightedStations(newHighlights) {
+        newHighlights.forEach((h) => this.highlightedStations.add(h));
+        if (localStorage) {
+            localStorage.setItem(
+                'highlightedStations',
+                this.highlightedStations
+            );
+        }
+    },
+
+    clearHighlightedStations() {
+        this.highlightedStations.clear();
+        if (localStorage) {
+            localStorage.setItem('highlightedStations', []);
+        }
+    },
+
+    clickStation(station) {
+        this.clickedStation = station;
+        if (localStorage) {
+            localStorage.setItem('clickedStation', station);
+        }
+    },
 };
 
 buildHideoutTree().then((res) => {
@@ -22,15 +54,17 @@ window.onresize = function () {
 };
 
 function onEnterStation(event) {
-    if (!clickedStation) {
-        highlightedStations = findRequiredStations(event.currentTarget.id);
+    if (!store.clickedStation) {
+        store.addHighlightedStations(
+            findRequiredStations(event.currentTarget.id)
+        );
         highlight();
     }
 }
 
 function onLeaveStation(event) {
-    if (!clickedStation) {
-        highlightedStations = [];
+    if (!store.clickedStation) {
+        store.clearHighlightedStations();
         removeHighlights();
     }
 }
@@ -42,20 +76,21 @@ function onClickStation(event) {
     clearSummary();
     removeHighlights();
 
-    if (clickedStation === event.currentTarget.id) {
-        highlightedStations = [];
-        clickedStation = '';
+    if (store.clickedStation === event.currentTarget.id) {
+        store.clearHighlightedStations();
+        store.clickStation('');
         event.currentTarget.dispatchEvent(new Event('mouseenter'));
     } else {
-        clickedStation = event.currentTarget.id;
+        store.clickStation(event.currentTarget.id);
         if (event.ctrlKey) {
-            highlightedStations = highlightedStations.concat(
-                findRequiredStations(clickedStation)
+            store.addHighlightedStations(
+                findRequiredStations(store.clickedStation)
             );
-            //remove duplicates to not count them multiple times in the summary
-            highlightedStations = [...new Set(highlightedStations)];
         } else {
-            highlightedStations = findRequiredStations(clickedStation);
+            store.clearHighlightedStations();
+            store.addHighlightedStations(
+                findRequiredStations(store.clickedStation)
+            );
         }
         highlight();
         showSummary();
@@ -67,7 +102,8 @@ function showSummary() {
     const skills = {};
     const traders = {};
 
-    for (const station of highlightedStations) {
+    for (const station of store.highlightedStations.values()) {
+        console.log(station);
         for (const i of hideout[station].prerequisites.items) {
             if (items[i.item]) {
                 items[i.item].amount += i.amount;
@@ -167,7 +203,7 @@ function removeHighlights() {
 
 function highlight() {
     for (const key in hideout) {
-        if (highlightedStations.findIndex((v) => v === key) === -1) {
+        if (!store.highlightedStations.has(key)) {
             document.getElementById(hideout[key].id).classList.add('fadeout');
         }
     }
@@ -282,7 +318,7 @@ function drawLines() {
         const station = hideout[key];
 
         rect = document.getElementById(station.id).getBoundingClientRect();
-        const isEndHighlighted = highlightedStations.includes(station.id);
+        const isEndHighlighted = store.highlightedStations.has(station.id);
         const end = {
             x: Math.floor(station.geometry.x + station.geometry.width / 2),
             y: Math.floor(station.geometry.y),
@@ -301,9 +337,9 @@ function drawLines() {
                 ),
             };
 
-            if (!highlightedStations.length) {
+            if (!store.highlightedStations.size) {
                 ctx.strokeStyle = '#fff';
-            } else if (highlightedStations.includes(stationId)) {
+            } else if (store.highlightedStations.has(stationId)) {
                 if (isEndHighlighted) {
                     ctx.strokeStyle = '#fff';
                 } else {
