@@ -1,15 +1,3 @@
-let localStorage = Window.localStorage;
-if (!localStorage) {
-    console.log('Local storage not available. No persistence');
-}
-let hideout;
-
-const elements = {
-    container: document.getElementById('container'),
-    canvas: document.getElementById('canvas'),
-    summary: document.getElementById('summary'),
-};
-
 const store = {
     highlightedStations: new Set(),
     clickedStation: '',
@@ -19,7 +7,7 @@ const store = {
         if (localStorage) {
             localStorage.setItem(
                 'highlightedStations',
-                this.highlightedStations
+                Array.from(this.highlightedStations).join()
             );
         }
     },
@@ -39,6 +27,30 @@ const store = {
     },
 };
 
+let localStorage = window.localStorage;
+if (localStorage) {
+    // load stored settings
+    prevHighlighted = localStorage.getItem('highlightedStations');
+    prevClicked = localStorage.getItem('clickedStation');
+
+    if (prevClicked) {
+        store.clickStation(prevClicked);
+    }
+
+    if (prevHighlighted) {
+        store.addHighlightedStations(prevHighlighted.split(','));
+    }
+} else {
+    console.log('Local storage not available. No persistence');
+}
+
+const elements = {
+    container: document.getElementById('container'),
+    canvas: document.getElementById('canvas'),
+    summary: document.getElementById('summary'),
+};
+
+let hideout;
 buildHideoutTree().then((res) => {
     const stationNodes = document.getElementsByClassName('station');
     Array.from(stationNodes).forEach((e) => {
@@ -46,6 +58,10 @@ buildHideoutTree().then((res) => {
         e.addEventListener('mouseleave', onLeaveStation);
         e.addEventListener('mouseup', onClickStation);
     });
+    if (store.highlightedStations.size) {
+        highlight();
+        showSummary();
+    }
 });
 
 window.onresize = function () {
