@@ -653,12 +653,16 @@
                     "amount": 8500000
                 },
                 {
-                    "item": "electric drill",
-                    "amount": 2
+                    "item": "pack of screws",
+                    "amount": 15
                 },
                 {
-                    "item": "pack of screws",
-                    "amount": 8
+                    "item": "pack of nails",
+                    "amount": 7
+                },
+                {
+                    "item": "electric drill",
+                    "amount": 2
                 }
             ]
         },
