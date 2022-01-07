@@ -119,7 +119,6 @@ function showSummary() {
     const traders = {};
 
     for (const station of store.highlightedStations.values()) {
-        console.log(station);
         for (const i of hideout[station].prerequisites.items) {
             if (items[i.item]) {
                 items[i.item].amount += i.amount;
