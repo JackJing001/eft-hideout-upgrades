@@ -1,0 +1,4558 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 4302 2663"
+   version="0.1"
+   id="svg5"
+   width="4302"
+   height="2663"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <style
+     id="style33">svg {background: #202020}
+text { font-size:14.4px;line-height:1.25;font-family:Roboto;fill:#ffffff;fill-opacity:1;stroke:none }
+text.station-name { font-size:20px; }
+.req-skill text { fill:#d89e00; }
+.req-trader text { fill:#34a565; }
+.requirements circle { stroke:none; fill:#ffffff; }
+.station rect { stroke-width:3; fill:none; }
+.station.tier-1 { stroke:#84d1ff; }
+.station.tier-2 { stroke:#3737ff; }
+.station.tier-3 { stroke:#800080; }
+.station.tier-4 { stroke:#fe5744; }
+.line { stroke-width:1.5px; stroke:#ffffff; }
+.line.highlight { stroke:#00ff00; }
+.line-border { stroke-width:10px;    stroke:#202020; }
+</style>
+  <g
+     id="group-lines"
+     style="fill:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="translate(-32.5,-32.5)">
+    <g
+       id="sec_1-gen_1"
+       transform="translate(3285,156)">
+      <path
+         d="m 0,0 v 42 h -319 v 58"
+         class="line-border"
+         id="path473" />
+      <path
+         d="m 0,0 v 42 h -319 v 58"
+         class="line"
+         id="path475" />
+    </g>
+    <g
+       id="gen_1-med_2"
+       transform="translate(3020,397)">
+      <path
+         d="m 0,0 v 32 h 879 v 68"
+         class="line-border"
+         id="path478" />
+      <path
+         d="m 0,0 v 32 h 879 v 68"
+         class="line"
+         id="path480" />
+    </g>
+    <g
+       id="gen_1-illu_2"
+       transform="translate(2932,397)">
+      <path
+         d="m 0,0 v 32 h -493 v 68"
+         class="line-border"
+         id="path483" />
+      <path
+         d="m 0,0 v 32 h -493 v 68"
+         class="line"
+         id="path485" />
+    </g>
+    <g
+       id="sec_2-int_1"
+       transform="translate(3313,397)">
+      <path
+         d="M 0,0 V 204 H 291 V 378"
+         class="line-border"
+         id="path488" />
+      <path
+         d="M 0,0 V 204 H 291 V 378"
+         class="line"
+         id="path490" />
+    </g>
+    <g
+       id="sec_2-gen_2"
+       transform="translate(3224,397)">
+      <path
+         d="m 0,0 v 57 h -227 v 43"
+         class="line-border"
+         id="path493" />
+      <path
+         d="m 0,0 v 57 h -227 v 43"
+         class="line"
+         id="path495" />
+    </g>
+    <g
+       id="illu_2-work_2"
+       transform="translate(2390,675)">
+      <path
+         d="m 0,0 v 43 h -549 v 57"
+         class="line-border"
+         id="path498" />
+      <path
+         d="m 0,0 v 43 h -549 v 57"
+         class="line"
+         id="path500" />
+    </g>
+    <g
+       id="illu_2-range_1"
+       transform="translate(2452,675)">
+      <path
+         d="m 0,0 v 43 h 251 v 57"
+         class="line-border"
+         id="path503" />
+      <path
+         d="m 0,0 v 43 h 251 v 57"
+         class="line"
+         id="path505" />
+    </g>
+    <g
+       id="illu_3-sec_3"
+       transform="translate(2437,951)">
+      <path
+         d="m 0,0 v 55 h 852 v 45"
+         class="line-border"
+         id="path508" />
+      <path
+         d="m 0,0 v 55 h 852 v 45"
+         class="line"
+         id="path510" />
+    </g>
+    <g
+       id="med_3-int_2"
+       transform="translate(3902,953)">
+      <path
+         d="m 0,0 v 772 h -250 v 71"
+         class="line-border"
+         id="path513" />
+      <path
+         d="m 0,0 v 772 h -250 v 71"
+         class="line"
+         id="path515" />
+    </g>
+    <g
+       id="int_2-scav_1"
+       transform="translate(3647,1956)">
+      <path
+         d="m 0,0 v 48 h 546 v 52"
+         class="line-border"
+         id="path518" />
+      <path
+         d="m 0,0 v 48 h 546 v 52"
+         class="line"
+         id="path520" />
+    </g>
+    <g
+       id="int_2-bitcoin_1"
+       transform="translate(3647,1956)">
+      <path
+         d="m 0,0 v 48 h 257 v 52"
+         class="line"
+         id="path523" />
+    </g>
+  </g>
+  <g
+     id="group-stations"
+     transform="translate(-32.5,-32.5)">
+    <g
+       id="demo-station"
+       class="station tier-4"
+       transform="translate(-240,34)">
+      <rect
+         width="180"
+         height="175"
+         id="rect1314"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text1330">Demo</text>
+      <g
+         class="requirements"
+         id="g1326">
+        <g
+           id="g815"
+           transform="translate(20,48)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle1316"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1678">35,000 Roubles</text>
+        </g>
+        <g
+           id="g1247"
+           transform="translate(20,66)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle1243"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1245">Endurance 6</text>
+        </g>
+        <g
+           id="g1253"
+           transform="translate(20,84)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle1249"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1251">Ragman 2</text>
+        </g>
+        <g
+           id="g649"
+           transform="translate(20,102)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle645"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text647">Ragman 2</text>
+        </g>
+        <g
+           id="g655"
+           transform="translate(20,120)"
+           class="req-skill">
+          <circle
+             r="2"
+             id="circle651"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text653">Ragman 2</text>
+        </g>
+        <g
+           id="g661"
+           transform="translate(20,138)"
+           class="req-trader">
+          <circle
+             r="2"
+             id="circle657"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text659">Ragman 2</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="rest_1"
+       class="station tier-1"
+       transform="translate(34,34)">
+      <rect
+         width="210"
+         height="120"
+         id="rect110"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text114">Rest Space</text>
+      <g
+         class="requirements"
+         id="g134">
+        <g
+           id="g120"
+           transform="translate(20,48)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle116"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text118">10,000 Roubles</text>
+        </g>
+        <g
+           id="g126"
+           transform="translate(20,66)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle122"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text124">1 Classic Matches</text>
+        </g>
+        <g
+           id="g132"
+           transform="translate(20,84)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle128"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text130">1 Duct Tape</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="rest_2"
+       class="station tier-2"
+       transform="translate(34,770)">
+      <rect
+         width="210"
+         height="174"
+         id="rect218"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text223">Rest Space</text>
+      <g
+         class="requirements"
+         id="g243">
+        <g
+           id="g229"
+           transform="translate(20,48)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle225"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text227">35,000 Roubles</text>
+        </g>
+        <g
+           id="g235"
+           transform="translate(20,66)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle231"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text233">3 Energy-saving Lamp</text>
+        </g>
+        <g
+           id="g241"
+           transform="translate(20,84)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle237"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text239">1 DVD Drive</text>
+        </g>
+        <g
+           id="g253"
+           transform="translate(20,102)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle249"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text251">1 Magnet</text>
+        </g>
+        <g
+           id="g259"
+           transform="translate(20,120)"
+           class="req-trader">
+          <circle
+             r="2"
+             id="circle255"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text257">Ragman 2</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="rest_3"
+       class="station tier-3"
+       transform="translate(34,1562)">
+      <rect
+         width="210"
+         height="156"
+         id="rect605"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text609">Rest Space</text>
+      <g
+         class="requirements"
+         id="g629">
+        <g
+           id="g615"
+           transform="translate(20,48)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle611"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text613">7 Wires</text>
+        </g>
+        <g
+           id="g621"
+           transform="translate(20,66)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle617"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text619">5 GreenBat Lithium Battery</text>
+        </g>
+        <g
+           id="g627"
+           transform="translate(20,84)"
+           class="req-titem">
+          <circle
+             r="2"
+             id="circle623"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text625">5 Capacitors</text>
+        </g>
+        <g
+           id="g637"
+           transform="translate(20,102)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle633"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text635">4 Powercord</text>
+        </g>
+        <g
+           id="g643"
+           transform="translate(20,120)"
+           class="req-trader">
+          <circle
+             r="2"
+             id="circle639"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text641">Skier 3</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="library_1"
+       class="station tier-1"
+       transform="translate(34,1819)">
+      <rect
+         width="210"
+         height="174"
+         id="rect743"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text747">Library</text>
+      <g
+         class="requirements"
+         id="g785">
+        <g
+           id="g753"
+           transform="translate(20,48)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle749"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text751">400,000 Roubles</text>
+        </g>
+        <g
+           id="g759"
+           transform="translate(20,156)"
+           class="req-skill">
+          <circle
+             r="2"
+             id="circle755"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text757">Memory 8</text>
+        </g>
+        <g
+           id="g45682"
+           transform="translate(20,66)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle45678"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text45680">5 Tech Manual</text>
+        </g>
+        <g
+           id="g46960"
+           transform="translate(20,84)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle46956"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text46958">2 Slim Diary</text>
+        </g>
+        <g
+           id="g46966"
+           transform="translate(20,102)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle46962"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text46964">2 Diary</text>
+        </g>
+        <g
+           id="g46972"
+           transform="translate(20,120)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle46968"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text46970">2 Chainlet</text>
+        </g>
+        <g
+           id="g46978"
+           transform="translate(20,138)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle46974"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text46976">1 Horse Figurine</text>
+        </g>
+        <g
+           id="g46984"
+           transform="translate(20,156)"
+           class="req-skill">
+          <circle
+             r="2"
+             id="circle46980"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text46982">Memory 8</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="stash_1"
+       class="station tier-1"
+       transform="translate(346,34)">
+      <rect
+         width="160"
+         height="120"
+         id="rect1251"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text1255">Stash</text>
+      <g
+         class="requirements"
+         id="g1293" />
+    </g>
+    <g
+       id="stash_2"
+       class="station tier-2"
+       transform="translate(346,254)">
+      <rect
+         width="160"
+         height="138"
+         id="rect1777"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text1781">Stash</text>
+      <g
+         class="requirements"
+         id="g1819">
+        <g
+           id="g1787"
+           transform="translate(20,48)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle1783"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1785">2,500,000 Roubles</text>
+        </g>
+        <g
+           id="g1793"
+           transform="translate(20,66)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle1789"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1791">10 Pack Of Screws</text>
+        </g>
+        <g
+           id="g1799"
+           transform="translate(20,84)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle1795"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1797">5 Pack Of Nails</text>
+        </g>
+        <g
+           id="g1805"
+           transform="translate(20,102)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle1801"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1803">4 WD-40 (100ml)</text>
+        </g>
+        <g
+           id="g1811"
+           transform="translate(20,120)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle1807"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1809">1 Hand Drill</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="stash_3"
+       class="station tier-3"
+       transform="translate(346,494)">
+      <rect
+         width="160"
+         height="174"
+         id="rect2240"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text2244">Stash</text>
+      <g
+         class="requirements"
+         id="g2276">
+        <g
+           id="g2250"
+           transform="translate(20,48)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle2246"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text2248">8,500,000 Roubles</text>
+        </g>
+        <g
+           id="g2256"
+           transform="translate(20,66)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle2252"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text2254">15 Pack Of Screws</text>
+        </g>
+        <g
+           id="g2262"
+           transform="translate(20,84)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle2258"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text2260">7 Pack Of Nails</text>
+        </g>
+        <g
+           id="g2268"
+           transform="translate(20,102)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle2264"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text2266">2 Electric Drill</text>
+        </g>
+        <g
+           id="g2274"
+           transform="translate(20,120)"
+           class="req-trader">
+          <circle
+             r="2"
+             id="circle2270"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text2272">Ragman 3</text>
+        </g>
+        <g
+           id="g39557"
+           transform="translate(20,138)"
+           class="req-trader">
+          <circle
+             r="2"
+             id="circle39553"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text39555">Prapor 3</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="stash_4"
+       class="station tier-4"
+       transform="translate(346,2352)">
+      <rect
+         width="160"
+         height="120"
+         id="rect2467"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text2471">Stash</text>
+      <g
+         class="requirements"
+         id="g2503">
+        <g
+           id="g2477"
+           transform="translate(20,48)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle2473"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text2475">150,000 Euros</text>
+        </g>
+        <g
+           id="g2483"
+           transform="translate(20,66)"
+           class="req-trader">
+          <circle
+             r="2"
+             id="circle2479"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text2481">Peacekeeper 4</text>
+        </g>
+        <g
+           id="g2489"
+           transform="translate(20,84)"
+           class="req-trader">
+          <circle
+             r="2"
+             id="circle2485"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text2487">Ragman 4</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="lavatory_1"
+       class="station tier-1"
+       transform="translate(608,34)">
+      <rect
+         width="218"
+         height="120"
+         id="rect203"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text207">Lavatory</text>
+      <g
+         class="requirements"
+         id="g209">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g395">
+          <circle
+             r="2"
+             id="circle1316-8"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1678-0">2,000 Roubles</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g307">
+          <circle
+             r="2"
+             id="circle303"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text305">1 Toilet Paper</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g313">
+          <circle
+             r="2"
+             id="circle309"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text311">1 Toothpaste</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g319">
+          <circle
+             r="2"
+             id="circle315"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text317">1 Soap</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="lavatory_2"
+       class="station tier-2"
+       transform="translate(608,254)">
+      <rect
+         width="218"
+         height="138"
+         id="rect321"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text323">Lavatory</text>
+      <g
+         class="requirements"
+         id="g349">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g329">
+          <circle
+             r="2"
+             id="circle325"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text327">5 Pack Of  Screws</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g335">
+          <circle
+             r="2"
+             id="circle331"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text333">3 Corrugated Hose</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g341">
+          <circle
+             r="2"
+             id="circle337"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text339">1 KEKTAPE Duct Tape</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g347">
+          <circle
+             r="2"
+             id="circle343"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text345">1 Electric Drill</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-item"
+           id="g39551">
+          <circle
+             r="2"
+             id="circle39547"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text39549">1 Sewing Kit</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="lavatory_3"
+       class="station tier-3"
+       transform="translate(608,1304)">
+      <rect
+         width="218"
+         height="156"
+         id="rect353"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text355">Lavatory</text>
+      <g
+         class="requirements"
+         id="g381">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g361">
+          <circle
+             r="2"
+             id="circle357"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text359">6 Corrugated Hose</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g367">
+          <circle
+             r="2"
+             id="circle363"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text365">3 Xenomorph Sealing Foam</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g373">
+          <circle
+             r="2"
+             id="circle369"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text371">2 Pressure Gauge</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g379">
+          <circle
+             r="2"
+             id="circle375"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text377">1 Toolset</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="nutrition_1"
+       class="station tier-1"
+       transform="translate(927,494)">
+      <rect
+         width="252"
+         height="174"
+         id="rect385"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text387">Nutrition Unit</text>
+      <g
+         class="requirements"
+         id="g419">
+        <g
+           id="g393"
+           transform="translate(20,48)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle389"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text391">25,000 Roubles</text>
+        </g>
+        <g
+           id="g399"
+           transform="translate(20,66)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle395"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text397">2 Phase Control Relay</text>
+        </g>
+        <g
+           id="g40179"
+           transform="translate(20,84)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle40175"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text40177">1 Power Cord</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="nutrition_2"
+       class="station tier-2"
+       transform="translate(927,770)">
+      <rect
+         width="252"
+         height="174"
+         id="rect663"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text665">Nutrition Unit</text>
+      <g
+         class="requirements"
+         id="g679">
+        <g
+           id="g671"
+           transform="translate(20,48)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle667"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text669">4 Wrench</text>
+        </g>
+        <g
+           id="g677"
+           transform="translate(20,66)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle673"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text675">2 Corrugated Hose</text>
+        </g>
+        <g
+           id="g687"
+           transform="translate(20,84)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle683"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text685">2 Alkali</text>
+        </g>
+        <g
+           id="g696"
+           transform="translate(20,102)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle692"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text694">1 Phase Control Relay</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="nutrition_3"
+       class="station tier-3"
+       transform="translate(927,1562)">
+      <rect
+         width="252"
+         height="156"
+         id="rect698"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text700">Nutrition Unit</text>
+      <g
+         class="requirements"
+         id="g726">
+        <g
+           id="g706"
+           transform="translate(20,48)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle702"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text704">125,000 Roubles</text>
+        </g>
+        <g
+           id="g712"
+           transform="translate(20,66)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle708"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text710">3 Sodium Bicarbonate</text>
+        </g>
+        <g
+           id="g718"
+           transform="translate(20,84)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle714"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text716">3 Coffee Majaica</text>
+        </g>
+        <g
+           id="g724"
+           transform="translate(20,120)"
+           class="req-skill">
+          <circle
+             r="2"
+             id="circle720"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text722">Metabolism 3</text>
+        </g>
+        <g
+           id="g47647"
+           transform="translate(20,102)"
+           class="req-item">
+          <circle
+             r="2"
+             id="circle47643"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text47645">2 Smoked Chimney Drain Cleaner</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="water_1"
+       class="station tier-1"
+       transform="translate(1282,34)">
+      <rect
+         width="200"
+         height="120"
+         id="rect1012"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text1014">Water Collector</text>
+      <g
+         class="requirements"
+         id="g1040">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g1020">
+          <circle
+             r="2"
+             id="circle1016"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1018">5 Screw Nuts</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g1026">
+          <circle
+             r="2"
+             id="circle1022"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1024">5 Bolts</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g1032">
+          <circle
+             r="2"
+             id="circle1028"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1030">4 Corrugated Hose</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g1038">
+          <circle
+             r="2"
+             id="circle1034"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1036">3 Duct Tape</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="water_2"
+       class="station tier-2"
+       transform="translate(1282,1046)">
+      <rect
+         width="200"
+         height="156"
+         id="rect1044"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text1046">Water Collector</text>
+      <g
+         class="requirements"
+         id="g1072">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g1052">
+          <circle
+             r="2"
+             id="circle1048"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1050">6 Corrugated Hose</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g1058">
+          <circle
+             r="2"
+             id="circle1054"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1056">2 Electric Motor</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g1064">
+          <circle
+             r="2"
+             id="circle1060"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1062">2 Toolset</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g1070">
+          <circle
+             r="2"
+             id="circle1066"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1068">1 KEKTAPE Duct Tape</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-skill"
+           id="g1080">
+          <circle
+             r="2"
+             id="circle1076"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1078">Attention 3</text>
+        </g>
+        <g
+           transform="translate(20,138)"
+           class="req-trader"
+           id="g1086">
+          <circle
+             r="2"
+             id="circle1082"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1084">Jaeger 2</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="water_3"
+       class="station tier-3"
+       transform="translate(1282,1562)">
+      <rect
+         width="200"
+         height="156"
+         id="rect1408"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text1410">Water Collector</text>
+      <g
+         class="requirements"
+         id="g1448">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g1416">
+          <circle
+             r="2"
+             id="circle1412"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1414">20,000 Roubles</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g1422">
+          <circle
+             r="2"
+             id="circle1418"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1420">5 Shustrilo Sealing Foam</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g1428">
+          <circle
+             r="2"
+             id="circle1424"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1426">2 Pliers Elite</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g49624">
+          <circle
+             r="2"
+             id="circle49620"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text49622">1 Ratchet Wrench</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-trader"
+           id="g1434">
+          <circle
+             r="2"
+             id="circle1430"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1432">Jaeger 3</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="booze_1"
+       class="station tier-1"
+       transform="translate(1282,1819)">
+      <rect
+         width="200"
+         height="174"
+         id="rect1948"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text1950">Booze Generator</text>
+      <g
+         class="requirements"
+         id="g1976">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g1956">
+          <circle
+             r="2"
+             id="circle1952"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1954">5 Corrugated Hose</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g1962">
+          <circle
+             r="2"
+             id="circle1958"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1960">4 Silicone Tube</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g1968">
+          <circle
+             r="2"
+             id="circle1964"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1966">3 Radiator Helix</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g1974">
+          <circle
+             r="2"
+             id="circle1970"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text1972">2 Analog Thermometer</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-item"
+           id="g49634">
+          <circle
+             r="2"
+             id="circle49630"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text49632">2 Pressure Gauge</text>
+        </g>
+        <g
+           transform="translate(20,138)"
+           class="req-item"
+           id="g49640">
+          <circle
+             r="2"
+             id="circle49636"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text49638">2 Metal Spare Parts</text>
+        </g>
+        <g
+           transform="translate(20,156)"
+           class="req-item"
+           id="g49646">
+          <circle
+             r="2"
+             id="circle49642"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text49644">1 Pipe Grip Wrench</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="heating_1"
+       class="station tier-1"
+       transform="translate(1582,34)">
+      <rect
+         width="208"
+         height="120"
+         id="rect2684"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text2686">Heating</text>
+      <g
+         class="requirements"
+         id="g2712">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g2692">
+          <circle
+             r="2"
+             id="circle2688"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text2690">25,000 Roubles</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g2698">
+          <circle
+             r="2"
+             id="circle2694"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text2696">2 Classic Matches</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="heating_2"
+       class="station tier-2"
+       transform="translate(1582,254)">
+      <rect
+         width="208"
+         height="138"
+         id="rect2876"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text2878">Heating</text>
+      <g
+         class="requirements"
+         id="g2892">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g2884">
+          <circle
+             r="2"
+             id="circle2880"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text2882">50,000 Roubles</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g2890">
+          <circle
+             r="2"
+             id="circle2886"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text2888">3 Crickent Lighter</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g2900">
+          <circle
+             r="2"
+             id="circle2896"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text2898">3 Dry Fuel</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g54556">
+          <circle
+             r="2"
+             id="circle54552"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text54554">2 Hunter Matches</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-skill"
+           id="g2906">
+          <circle
+             r="2"
+             id="circle2902"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text2904">Endurance 1</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="heating_3"
+       class="station tier-3"
+       transform="translate(1490,1055)">
+      <rect
+         width="158"
+         height="156"
+         id="rect3664"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text3666">Heating</text>
+      <g
+         class="requirements"
+         id="g3704">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g3672">
+          <circle
+             r="2"
+             id="circle3668"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text3670">8 Radiator Helix</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g3678">
+          <circle
+             r="2"
+             id="circle3674"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text3676">8 Wires</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-trader"
+           id="g3684">
+          <circle
+             r="2"
+             id="circle3680"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text3682">Ragman 2</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="workbench_1"
+       class="station tier-1"
+       transform="translate(1894,34)">
+      <rect
+         width="192"
+         height="120"
+         id="rect4339"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text4341">Workbench</text>
+      <g
+         class="requirements"
+         id="g4355">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g4347">
+          <circle
+             r="2"
+             id="circle4343"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text4345">2 Screw Nuts</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g4353">
+          <circle
+             r="2"
+             id="circle4349"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text4351">2 Bolts</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g4363">
+          <circle
+             r="2"
+             id="circle4359"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text4361">1 Leatherman Multitool</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="workbench_2"
+       class="station tier-2"
+       transform="translate(1894,770)">
+      <rect
+         width="192"
+         height="174"
+         id="rect4365"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text4367">Workbench</text>
+      <g
+         class="requirements"
+         id="g4387">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g4373">
+          <circle
+             r="2"
+             id="circle4369"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text4371">6 Bolts</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g4379">
+          <circle
+             r="2"
+             id="circle4375"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text4377">3 Toolset</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g4385">
+          <circle
+             r="2"
+             id="circle4381"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text4383">3 Weapon Parts</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g55254">
+          <circle
+             r="2"
+             id="circle55250"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text55252">2 Electric Drill</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-trader"
+           id="g4395">
+          <circle
+             r="2"
+             id="circle4391"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text4393">Mechanic 2</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="workbench_3"
+       class="station tier-3"
+       transform="translate(1894,1055)">
+      <rect
+         width="192"
+         height="156"
+         id="rect4817"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text4819">Workbench</text>
+      <g
+         class="requirements"
+         id="g4845">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g4825">
+          <circle
+             r="2"
+             id="circle4821"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text4823">195,000 Roubles</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g4831">
+          <circle
+             r="2"
+             id="circle4827"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text4829">2 Pliers Elite</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g4837">
+          <circle
+             r="2"
+             id="circle4833"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text4835">1 FireKlean Gun Lube</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-trader"
+           id="g4843">
+          <circle
+             r="2"
+             id="circle4839"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text4841">Mechanic 3</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="solar_1"
+       class="station tier-1"
+       transform="translate(1894,1562)">
+      <rect
+         width="192"
+         height="156"
+         id="rect4849"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text4851">Solar Power</text>
+      <g
+         class="requirements"
+         id="g4877">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g4857">
+          <circle
+             r="2"
+             id="circle4853"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text4855">75,000 Euros</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g4863">
+          <circle
+             r="2"
+             id="circle4859"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text4861">10 Military Cable</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g4885">
+          <circle
+             r="2"
+             id="circle4881"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text4883">10 Military Power Filter</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g4869">
+          <circle
+             r="2"
+             id="circle4865"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text4867">4 Phased Array Element</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-item"
+           id="g52483">
+          <circle
+             r="2"
+             id="circle52479"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text52481">3 Working LCD</text>
+        </g>
+        <g
+           transform="translate(20,138)"
+           class="req-trader"
+           id="g4875">
+          <circle
+             r="2"
+             id="circle4871"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text4873">Peacekeeper 4</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="vents_1"
+       class="station tier-1"
+       transform="translate(2188,34)">
+      <rect
+         width="208"
+         height="120"
+         id="rect5342"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text5344">Vents</text>
+      <g
+         class="requirements"
+         id="g5364">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g5350">
+          <circle
+             r="2"
+             id="circle5346"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text5348">25,000 Roubles</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="vents_2"
+       class="station tier-2"
+       transform="translate(2188,254)">
+      <rect
+         width="208"
+         height="138"
+         id="rect5554"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text5556">Vents</text>
+      <g
+         class="requirements"
+         id="g5576">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g5562">
+          <circle
+             r="2"
+             id="circle5558"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text5560">3 CPU Fan</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g5568">
+          <circle
+             r="2"
+             id="circle5564"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text5566">2 Metal Spare Parts</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g5574">
+          <circle
+             r="2"
+             id="circle5570"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text5572">1 Electric Motor</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g51099">
+          <circle
+             r="2"
+             id="circle51095"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text51097">1 Car Battery</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="vents_3"
+       class="station tier-3"
+       transform="translate(2188,770)">
+      <rect
+         width="208"
+         height="174"
+         id="rect5528"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text5530">Vents</text>
+      <g
+         class="requirements"
+         id="g5538">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g5536">
+          <circle
+             r="2"
+             id="circle5532"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text5534">14 Wires</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g5546">
+          <circle
+             r="2"
+             id="circle5542"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text5544">5 Printed Circuit Board</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g5584">
+          <circle
+             r="2"
+             id="circle5580"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text5582">5 Metal Spare Parts</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g5590">
+          <circle
+             r="2"
+             id="circle5586"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text5588">4 Electric Motor</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-item"
+           id="g55260">
+          <circle
+             r="2"
+             id="circle55256"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text55258">4 Car Battery</text>
+        </g>
+        <g
+           transform="translate(20,138)"
+           class="req-skill"
+           id="g5552">
+          <circle
+             r="2"
+             id="circle5548"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text5550">Strength 2</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="air_filter_1"
+       class="station tier-1"
+       transform="translate(2188,1562)">
+      <rect
+         width="208"
+         height="156"
+         id="rect6124"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text6126">Air Filtering Unit</text>
+      <g
+         class="requirements"
+         id="g6158">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g6132">
+          <circle
+             r="2"
+             id="circle6128"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text6130">25,000 Dollars</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g6138">
+          <circle
+             r="2"
+             id="circle6134"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text6136">5 Gas Mask Air Filter</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g6144">
+          <circle
+             r="2"
+             id="circle6140"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text6142">5 Military Power Filter</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g51105">
+          <circle
+             r="2"
+             id="circle51101"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text51103">3 Military Corrugated Tube</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-trader"
+           id="g6156">
+          <circle
+             r="2"
+             id="circle6152"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text6154">Skier 3</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="illumination_1"
+       class="station tier-1"
+       transform="translate(2498,34)">
+      <rect
+         width="188"
+         height="120"
+         id="rect6752"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text6754">Illumination</text>
+      <g
+         class="requirements"
+         id="g6762">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g6760">
+          <circle
+             r="2"
+             id="circle6756"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text6758">10,000 Roubles</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g6770">
+          <circle
+             r="2"
+             id="circle6766"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text6768">1 Crickent Lighter</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="illumination_2"
+       class="station tier-2"
+       transform="translate(2498,494)">
+      <rect
+         width="188"
+         height="174"
+         id="rect7292"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text7294">Illumination</text>
+      <g
+         class="requirements"
+         id="g7308">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g7300">
+          <circle
+             r="2"
+             id="circle7296"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text7298">14 Light Bulb</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g7306">
+          <circle
+             r="2"
+             id="circle7302"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text7304">5 Wires</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="illumination_3"
+       class="station tier-3"
+       transform="translate(2498,770)">
+      <rect
+         width="188"
+         height="174"
+         id="rect7842"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text7844">Illumination</text>
+      <g
+         class="requirements"
+         id="g7858">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g7850">
+          <circle
+             r="2"
+             id="circle7846"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text7848">50,000 Roubles</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g7856">
+          <circle
+             r="2"
+             id="circle7852"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text7854">12 Energy-saving Lamp</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g8966">
+          <circle
+             r="2"
+             id="circle8962"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text8964">7 Capacitors</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g8972">
+          <circle
+             r="2"
+             id="circle8968"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text8970">6 Wires</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-trader"
+           id="g8406">
+          <circle
+             r="2"
+             id="circle8402"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text8404">Mechanic 2</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="range_1"
+       class="station tier-1"
+       transform="translate(2790,770)">
+      <rect
+         width="166"
+         height="174"
+         id="rect10392"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text10394">Shooting Range</text>
+      <g
+         class="requirements"
+         id="g10426">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g10400">
+          <circle
+             r="2"
+             id="circle10396"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text10398">5 Screw Nuts</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g10406">
+          <circle
+             r="2"
+             id="circle10402"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text10404">5 Bolts</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g10412">
+          <circle
+             r="2"
+             id="circle10408"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text10410">4 Pack Of Nails</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g10418">
+          <circle
+             r="2"
+             id="circle10414"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text10416">3 Duct Tape</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-item"
+           id="g55964">
+          <circle
+             r="2"
+             id="circle55960"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text55962">2 Metal Spare Parts</text>
+        </g>
+        <g
+           transform="translate(20,138)"
+           class="req-item"
+           id="g55970">
+          <circle
+             r="2"
+             id="circle55966"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text55968">2 Pack Of Screws</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="generator_1"
+       class="station tier-1"
+       transform="translate(3057,254)">
+      <rect
+         width="180"
+         height="138"
+         id="rect10510"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text10512">Generator</text>
+      <g
+         class="requirements"
+         id="g10532">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g10518">
+          <circle
+             r="2"
+             id="circle10514"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text10516">100,000 Roubles</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g10524">
+          <circle
+             r="2"
+             id="circle10520"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text10522">1 Spark Plug</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="generator_2"
+       class="station tier-2"
+       transform="translate(3057,494)">
+      <rect
+         width="180"
+         height="174"
+         id="rect11197"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text11199">Generator</text>
+      <g
+         class="requirements"
+         id="g11219">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g11205">
+          <circle
+             r="2"
+             id="circle11201"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text11203">15 Wires</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g11211">
+          <circle
+             r="2"
+             id="circle11207"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text11209">5 Phase Control Relay</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g11217">
+          <circle
+             r="2"
+             id="circle11213"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text11215">1 Bulbex Cable Cutter</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g11821">
+          <circle
+             r="2"
+             id="circle11817"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text11819">1 Electric Motor</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="generator_3"
+       class="station tier-3"
+       transform="translate(3057,1304)">
+      <rect
+         width="180"
+         height="156"
+         id="rect61136"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text61138">Generator</text>
+      <g
+         class="requirements"
+         id="g61164">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g61144">
+          <circle
+             r="2"
+             id="circle61140"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text61142">10 Spark Plug</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g61150">
+          <circle
+             r="2"
+             id="circle61146"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text61148">7 Metal Spare Parts</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g61156">
+          <circle
+             r="2"
+             id="circle61152"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text61154">6 Phase Control Relay</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g61162">
+          <circle
+             r="2"
+             id="circle61158"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text61160">5 Power Supply Unit</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-item"
+           id="g61896">
+          <circle
+             r="2"
+             id="circle61892"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text61894">3 Electric Motor</text>
+        </g>
+        <g
+           transform="translate(20,138)"
+           class="req-trader"
+           id="g61902">
+          <circle
+             r="2"
+             id="circle61898"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text61900">Mechanic 3</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="scav_case_1"
+       class="station tier-1"
+       transform="translate(3339,2095)">
+      <rect
+         width="240"
+         height="156"
+         id="rect86443"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text86445">Scav Case</text>
+      <g
+         class="requirements"
+         id="g86483">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g86451">
+          <circle
+             r="2"
+             id="circle86447"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text86449">8 Golden Neck Chain</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g86457">
+          <circle
+             r="2"
+             id="circle86453"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text86455">6 Gold Skull Ring</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g86463">
+          <circle
+             r="2"
+             id="circle86459"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text86461">6 P4 Bronze Lion</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g86469">
+          <circle
+             r="2"
+             id="circle86465"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text86467">4 Roler</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-item"
+           id="g86475">
+          <circle
+             r="2"
+             id="circle86471"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text86473">3 Moonshine</text>
+        </g>
+        <g
+           transform="translate(20,138)"
+           class="req-item"
+           id="g86481">
+          <circle
+             r="2"
+             id="circle86477"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text86479">1 Lucky Scav Junk Box</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="security_1"
+       class="station tier-1"
+       transform="translate(3339,34)">
+      <rect
+         width="240"
+         height="120"
+         id="rect62634"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text62636">Security</text>
+      <g
+         class="requirements"
+         id="g62650">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g62642">
+          <circle
+             r="2"
+             id="circle62638"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text62640">20,000 Roubles</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g62648">
+          <circle
+             r="2"
+             id="circle62644"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text62646">1 Construction Measuring Tape</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="security_2"
+       class="station tier-2"
+       transform="translate(3339,254)">
+      <rect
+         width="240"
+         height="138"
+         id="rect63398"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text63400">Security</text>
+      <g
+         class="requirements"
+         id="g63414">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g63406">
+          <circle
+             r="2"
+             id="circle63402"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text63404">45,000 Roubles</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g63412">
+          <circle
+             r="2"
+             id="circle63408"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text63410">1 TP-200 TNT Brick</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g63422">
+          <circle
+             r="2"
+             id="circle63418"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text63420">1 WD-40 (100ml)</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g63439">
+          <circle
+             r="2"
+             id="circle63435"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text63437">1 Pliers Elite</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-skill"
+           id="g63445">
+          <circle
+             r="2"
+             id="circle63441"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text63443">Endurance 2</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="security_3"
+       class="station tier-3"
+       transform="translate(3339,1046)">
+      <rect
+         width="240"
+         height="156"
+         id="rect64208"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text64210">Security</text>
+      <g
+         class="requirements"
+         id="g64242">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g64216">
+          <circle
+             r="2"
+             id="circle64212"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text64214">8 Nixxor Lens</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g64222">
+          <circle
+             r="2"
+             id="circle64218"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text64220">4 Wires</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g64228">
+          <circle
+             r="2"
+             id="circle64224"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text64226">2 Working LCD</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g64234">
+          <circle
+             r="2"
+             id="circle64230"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text64232">1 SSD Drive</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-trader"
+           id="g64240">
+          <circle
+             r="2"
+             id="circle64236"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text64238">Mechanic 2</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="intelligence_1"
+       class="station tier-1"
+       transform="translate(3681,770)">
+      <rect
+         width="330"
+         height="174"
+         id="rect66586"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text66588">Intelligence Center</text>
+      <g
+         class="requirements"
+         id="g66626">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g66594">
+          <circle
+             r="2"
+             id="circle66590"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text66592">1 Intelligence Folder</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g66600">
+          <circle
+             r="2"
+             id="circle66596"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text66598">1 Factory Plan Map</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g66606">
+          <circle
+             r="2"
+             id="circle66602"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text66604">1 Diary</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="intelligence_2"
+       class="station tier-2"
+       transform="translate(3681,1819)">
+      <rect
+         width="330"
+         height="174"
+         id="rect68462"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text68464">Intelligence Center</text>
+      <g
+         class="requirements"
+         id="g68484">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g68470">
+          <circle
+             r="2"
+             id="circle68466"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text68468">4 Damaged Hard Drive</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g68476">
+          <circle
+             r="2"
+             id="circle68472"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text68474">4 Powercord</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g68482">
+          <circle
+             r="2"
+             id="circle68478"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text68480">3 Secure Flash Drive</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g68492">
+          <circle
+             r="2"
+             id="circle68488"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text68490">3 Intelligence Folder</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-skill"
+           id="g69309">
+          <circle
+             r="2"
+             id="circle69305"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text69307">Attention 3</text>
+        </g>
+        <g
+           transform="translate(20,138)"
+           class="req-trader"
+           id="g70129">
+          <circle
+             r="2"
+             id="circle70125"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text70127">Mechanic 2</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="intelligence_3"
+       class="station tier-3"
+       transform="translate(3681,2095)">
+      <rect
+         width="330"
+         height="156"
+         id="rect70948"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text70950">Intelligence Center</text>
+      <g
+         class="requirements"
+         id="g70988">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g70956">
+          <circle
+             r="2"
+             id="circle70952"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text70954">4 Military Cable</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g70962">
+          <circle
+             r="2"
+             id="circle70958"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text70960">2 Military COFDM Wireless Signal Transmitter</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g70968">
+          <circle
+             r="2"
+             id="circle70964"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text70966">2 VPX Flash Storage Module</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g70974">
+          <circle
+             r="2"
+             id="circle70970"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text70972">1 Secured Magnetic Tape Cassette</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-item"
+           id="g70980">
+          <circle
+             r="2"
+             id="circle70976"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text70978">1 Gas Analyzer</text>
+        </g>
+        <g
+           transform="translate(20,138)"
+           class="req-trader"
+           id="g70986">
+          <circle
+             r="2"
+             id="circle70982"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text70984">Prapor 3</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="medstation_1"
+       class="station tier-1"
+       transform="translate(4113,34)">
+      <rect
+         width="220"
+         height="120"
+         id="rect77763"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text77765">Medstation</text>
+      <g
+         class="requirements"
+         id="g77779">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g77771">
+          <circle
+             r="2"
+             id="circle77767"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text77769">25,000 Roubles</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g77777">
+          <circle
+             r="2"
+             id="circle77773"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text77775">2 Aseptic Bandage</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g79499">
+          <circle
+             r="2"
+             id="circle79495"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text79497">1 Disposable Syringe</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g79505">
+          <circle
+             r="2"
+             id="circle79501"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text79503">1 Pile Of Meds</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="medstation_2"
+       class="station tier-2"
+       transform="translate(4113,494)">
+      <rect
+         width="220"
+         height="174"
+         id="rect80367"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text80369">Medstation</text>
+      <g
+         class="requirements"
+         id="g80395">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g80375">
+          <circle
+             r="2"
+             id="circle80371"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text80373">150,000 Roubles</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g80381">
+          <circle
+             r="2"
+             id="circle80377"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text80379">5 Esmarch Torniquet</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g80387">
+          <circle
+             r="2"
+             id="circle80383"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text80385">3 Saline Solution</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g80393">
+          <circle
+             r="2"
+             id="circle80389"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text80391">3 Medical Tools</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-item"
+           id="g80403">
+          <circle
+             r="2"
+             id="circle80399"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text80401">2 Medical Bloodset</text>
+        </g>
+        <g
+           transform="translate(20,138)"
+           class="req-skill"
+           id="g80409">
+          <circle
+             r="2"
+             id="circle80405"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text80407">Health 2</text>
+        </g>
+        <g
+           transform="translate(20,156)"
+           class="req-trader"
+           id="g80415">
+          <circle
+             r="2"
+             id="circle80411"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text80413">Therapist 2</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="medstation_3"
+       class="station tier-3"
+       transform="translate(4113,770)">
+      <rect
+         width="220"
+         height="174"
+         id="rect81302"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text81304">Medstation</text>
+      <g
+         class="requirements"
+         id="g81348">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g81310">
+          <circle
+             r="2"
+             id="circle81306"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text81308">500,000 Roubles</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g81316">
+          <circle
+             r="2"
+             id="circle81312"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text81314">4 Saline Solution</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g81322">
+          <circle
+             r="2"
+             id="circle81318"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text81320">1 Opthalmoscope</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g81328">
+          <circle
+             r="2"
+             id="circle81324"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text81326">1 LEDX</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-skill"
+           id="g81334">
+          <circle
+             r="2"
+             id="circle81330"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text81332">Vitality 3</text>
+        </g>
+        <g
+           transform="translate(20,138)"
+           class="req-trader"
+           id="g81340">
+          <circle
+             r="2"
+             id="circle81336"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text81338">Therapist 3</text>
+        </g>
+        <g
+           transform="translate(20,156)"
+           class="req-trader"
+           id="g81346">
+          <circle
+             r="2"
+             id="circle81342"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text81344">Skier 2</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="bitcoin_1"
+       class="station tier-1"
+       transform="translate(4113,2095)">
+      <rect
+         width="220"
+         height="156"
+         id="rect84082"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text84084">Bitcoin Farm</text>
+      <g
+         class="requirements"
+         id="g84128">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g84090">
+          <circle
+             r="2"
+             id="circle84086"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text84088">15 CPU Fan</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g84096">
+          <circle
+             r="2"
+             id="circle84092"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text84094">10 Power Supply Unit</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g84102">
+          <circle
+             r="2"
+             id="circle84098"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text84100">10 Powercord</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g84108">
+          <circle
+             r="2"
+             id="circle84104"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text84106">5 T-shaped Plug</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-item"
+           id="g84376">
+          <circle
+             r="2"
+             id="circle84372"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text84374">1 VPX Flash Storage Module</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="bitcoin_2"
+       class="station tier-2"
+       transform="translate(4113,2352)">
+      <rect
+         width="220"
+         height="120"
+         id="rect84378"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text84380">Bitcoin Farm</text>
+      <g
+         class="requirements"
+         id="g84412">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g84386">
+          <circle
+             r="2"
+             id="circle84382"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text84384">15 CPU Fan</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g84392">
+          <circle
+             r="2"
+             id="circle84388"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text84390">8 Power Supply Unit</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g84398">
+          <circle
+             r="2"
+             id="circle84394"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text84396">10 Printec Circuit Board</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g84404">
+          <circle
+             r="2"
+             id="circle84400"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text84402">5 Phase Control Relay</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="bitcoin_3"
+       class="station tier-3"
+       transform="translate(4113,2574)">
+      <rect
+         width="220"
+         height="120"
+         id="rect85441"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text85443">Bitcoin Farm</text>
+      <g
+         class="requirements"
+         id="g85469">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g85449">
+          <circle
+             r="2"
+             id="circle85445"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text85447">25 CPU Fan</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g85455">
+          <circle
+             r="2"
+             id="circle85451"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text85453">15 Silicone Tube</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g85461">
+          <circle
+             r="2"
+             id="circle85457"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text85459">8 Pressure Gauge</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g85467">
+          <circle
+             r="2"
+             id="circle85463"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text85465">4 Electric Motor</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
