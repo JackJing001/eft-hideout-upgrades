@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
 <svg
-   viewBox="0 0 4302 2663"
-   version="0.1"
-   id="svg5"
-   width="4302"
-   height="2663"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
+   viewBox="-3 -3 4597 2666"
+   width="100%"
+   height="auto"
+   version="1.0"
+   id="svg"
+   author="https://github.com/Filodoxia"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <style
-     id="style33">svg {background: #202020}
+     id="styles">svg {background: #202020}
 text { font-size:14.4px;line-height:1.25;font-family:Roboto;fill:#ffffff;fill-opacity:1;stroke:none }
 text.station-name { font-size:20px; }
 .req-skill text { fill:#d89e00; }
 .req-trader text { fill:#34a565; }
 .requirements circle { stroke:none; fill:#ffffff; }
+.station { pointer-events: visible; cursor: pointer; }
+.station:hover { opacity: 0.5 }
 .station rect { stroke-width:3; fill:none; }
 .station.tier-1 { stroke:#84d1ff; }
 .station.tier-2 { stroke:#3737ff; }
@@ -24,257 +27,1011 @@ text.station-name { font-size:20px; }
 .line.highlight { stroke:#00ff00; }
 .line-border { stroke-width:10px;    stroke:#202020; }
 </style>
+  <defs id="defs"></defs>
   <g
      id="group-lines"
-     style="fill:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     transform="translate(-32.5,-32.5)">
+     style="display:inline;fill:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
+    <g
+       id="heating_2-rest_2"
+       transform="translate(1620,358)">
+      <path
+         d="m 0,0 v 19 h -1499 v 359"
+         class="line-border"
+         id="path22139" />
+      <path
+         d="m 0,0 v 19 h -1499 v 359"
+         class="line"
+         id="path22141" />
+    </g>
     <g
        id="sec_1-gen_1"
-       transform="translate(3285,156)">
+       transform="translate(3393,120)">
       <path
-         d="m 0,0 v 42 h -319 v 58"
+         d="m 0,0 v 50 h -280 v 50"
          class="line-border"
          id="path473" />
       <path
-         d="m 0,0 v 42 h -319 v 58"
+         d="m 0,0 v 50 h -280 v 50"
          class="line"
          id="path475" />
     </g>
     <g
        id="gen_1-med_2"
-       transform="translate(3020,397)">
+       transform="translate(3129,358)">
       <path
-         d="m 0,0 v 32 h 879 v 68"
+         d="m 0,0 v 35 h 1044 v 67"
          class="line-border"
          id="path478" />
       <path
-         d="m 0,0 v 32 h 879 v 68"
+         d="m 0,0 v 35 h 1044 v 67"
          class="line"
          id="path480" />
     </g>
     <g
-       id="gen_1-illu_2"
-       transform="translate(2932,397)">
-      <path
-         d="m 0,0 v 32 h -493 v 68"
-         class="line-border"
-         id="path483" />
-      <path
-         d="m 0,0 v 32 h -493 v 68"
-         class="line"
-         id="path485" />
-    </g>
-    <g
-       id="sec_2-int_1"
-       transform="translate(3313,397)">
-      <path
-         d="M 0,0 V 204 H 291 V 378"
-         class="line-border"
-         id="path488" />
-      <path
-         d="M 0,0 V 204 H 291 V 378"
-         class="line"
-         id="path490" />
-    </g>
-    <g
-       id="sec_2-gen_2"
-       transform="translate(3224,397)">
-      <path
-         d="m 0,0 v 57 h -227 v 43"
-         class="line-border"
-         id="path493" />
-      <path
-         d="m 0,0 v 57 h -227 v 43"
-         class="line"
-         id="path495" />
-    </g>
-    <g
-       id="illu_2-work_2"
-       transform="translate(2390,675)">
-      <path
-         d="m 0,0 v 43 h -549 v 57"
-         class="line-border"
-         id="path498" />
-      <path
-         d="m 0,0 v 43 h -549 v 57"
-         class="line"
-         id="path500" />
-    </g>
-    <g
-       id="illu_2-range_1"
-       transform="translate(2452,675)">
-      <path
-         d="m 0,0 v 43 h 251 v 57"
-         class="line-border"
-         id="path503" />
-      <path
-         d="m 0,0 v 43 h 251 v 57"
-         class="line"
-         id="path505" />
-    </g>
-    <g
        id="illu_3-sec_3"
-       transform="translate(2437,951)">
+       transform="translate(2558,910)">
       <path
-         d="m 0,0 v 55 h 852 v 45"
+         d="m 0,0 v 51 h 851 v 51"
          class="line-border"
          id="path508" />
       <path
-         d="m 0,0 v 55 h 852 v 45"
+         d="m 0,0 v 51 h 851 v 51"
          class="line"
          id="path510" />
     </g>
     <g
        id="med_3-int_2"
-       transform="translate(3902,953)">
+       transform="translate(4189,910)">
       <path
-         d="m 0,0 v 772 h -250 v 71"
+         d="m 0,0 v 567 h -361 v 308"
          class="line-border"
          id="path513" />
       <path
-         d="m 0,0 v 772 h -250 v 71"
+         d="m 0,0 v 567 h -361 v 308"
          class="line"
          id="path515" />
     </g>
     <g
        id="int_2-scav_1"
-       transform="translate(3647,1956)">
+       transform="translate(3844,1959)">
       <path
-         d="m 0,0 v 48 h 546 v 52"
+         d="m 0,0 v 51 h 653 v 51"
          class="line-border"
          id="path518" />
       <path
-         d="m 0,0 v 48 h 546 v 52"
+         d="m 0,0 v 51 h 653 v 51"
          class="line"
          id="path520" />
     </g>
     <g
        id="int_2-bitcoin_1"
-       transform="translate(3647,1956)">
+       transform="translate(3828,1959)">
       <path
-         d="m 0,0 v 48 h 257 v 52"
+         d="m 0,0 v 67 h 361 v 35"
+         class="line-border"
+         id="path10260" />
+      <path
+         d="m 0,0 v 67 h 361 v 35"
          class="line"
          id="path523" />
     </g>
-  </g>
-  <g
-     id="group-stations"
-     transform="translate(-32.5,-32.5)">
     <g
-       id="demo-station"
-       class="station tier-4"
-       transform="translate(-240,34)">
-      <rect
-         width="180"
-         height="175"
-         id="rect1314"
-         x="0"
-         y="0" />
-      <text
-         class="station-name"
-         xml:space="preserve"
-         y="28"
-         x="9"
-         id="text1330">Demo</text>
-      <g
-         class="requirements"
-         id="g1326">
-        <g
-           id="g815"
-           transform="translate(20,48)"
-           class="req-item">
-          <circle
-             r="2"
-             id="circle1316"
-             cx="0"
-             cy="0" />
-          <text
-             xml:space="preserve"
-             x="10"
-             y="5"
-             id="text1678">35,000 Roubles</text>
-        </g>
-        <g
-           id="g1247"
-           transform="translate(20,66)"
-           class="req-item">
-          <circle
-             r="2"
-             id="circle1243"
-             cx="0"
-             cy="0" />
-          <text
-             xml:space="preserve"
-             x="10"
-             y="5"
-             id="text1245">Endurance 6</text>
-        </g>
-        <g
-           id="g1253"
-           transform="translate(20,84)"
-           class="req-item">
-          <circle
-             r="2"
-             id="circle1249"
-             cx="0"
-             cy="0" />
-          <text
-             xml:space="preserve"
-             x="10"
-             y="5"
-             id="text1251">Ragman 2</text>
-        </g>
-        <g
-           id="g649"
-           transform="translate(20,102)"
-           class="req-item">
-          <circle
-             r="2"
-             id="circle645"
-             cx="0"
-             cy="0" />
-          <text
-             xml:space="preserve"
-             x="10"
-             y="5"
-             id="text647">Ragman 2</text>
-        </g>
-        <g
-           id="g655"
-           transform="translate(20,120)"
-           class="req-skill">
-          <circle
-             r="2"
-             id="circle651"
-             cx="0"
-             cy="0" />
-          <text
-             xml:space="preserve"
-             x="10"
-             y="5"
-             id="text653">Ragman 2</text>
-        </g>
-        <g
-           id="g661"
-           transform="translate(20,138)"
-           class="req-trader">
-          <circle
-             r="2"
-             id="circle657"
-             cx="0"
-             cy="0" />
-          <text
-             xml:space="preserve"
-             x="10"
-             y="5"
-             id="text659">Ragman 2</text>
-        </g>
-      </g>
+       id="sec_3-int_2"
+       transform="translate(3425,1168)">
+      <path
+         d="m 0,0 v 309 h 371 v 308"
+         class="line-border"
+         id="path7970" />
+      <path
+         d="m 0,0 v 309 h 371 v 308"
+         class="line"
+         id="path7972" />
     </g>
     <g
+       id="sec_3-gen_3"
+       transform="translate(3409,1168)">
+      <path
+         d="m 0,0 v 67 h -280 v 35"
+         class="line-border"
+         id="path10224" />
+      <path
+         d="m 0,0 v 67 h -280 v 35"
+         class="line"
+         id="path10226" />
+    </g>
+    <g
+       id="vents_3-gen_3"
+       transform="translate(2274,910)">
+      <path
+         d="m 0,0 v 325 h 823 v 35"
+         class="line-border"
+         id="path13695" />
+      <path
+         d="m 0,0 v 325 h 823 v 35"
+         class="line"
+         id="path13697" />
+    </g>
+    <g
+       id="water_1-lavatory_2"
+       transform="translate(1332,120)">
+      <path
+         d="m 0,0 v 50 h -633 v 50"
+         class="line-border"
+         id="path14913" />
+      <path
+         d="m 0,0 v 50 h -633 v 50"
+         class="line"
+         id="path14915" />
+    </g>
+    <g
+       id="nutrition_3-booze_1"
+       transform="translate(1003,1684)">
+      <path
+         d="m 0,0 v 66 h 329 v 35"
+         class="line-border"
+         id="path18481" />
+      <path
+         d="m 0,0 v 66 h 329 v 35"
+         class="line"
+         id="path18483" />
+    </g>
+    <g
+       id="nutrition_3-int_1"
+       transform="translate(1019,1684)">
+      <path
+         d="m 0,0 v 50 h 2761 v 51"
+         class="line-border"
+         id="path19734" />
+      <path
+         d="m 0,0 v 50 h 2761 v 51"
+         class="line"
+         id="path19736" />
+    </g>
+    <g
+       id="gen_2-rest_2"
+       transform="translate(3033,634)">
+      <path
+         d="m 0,0 v 19 h -2896 v 83"
+         class="line-border"
+         id="path1175" />
+      <path
+         d="m 0,0 v 19 h -2896 v 83"
+         class="line"
+         id="path1177" />
+    </g>
+    <g
+       id="gen_2-illu_3"
+       transform="translate(3097,634)">
+      <path
+         d="m 0,0 v 83 h -523 v 19"
+         class="line-border"
+         id="path2716" />
+      <path
+         d="m 0,0 v 83 h -523 v 19"
+         class="line"
+         id="path2718" />
+    </g>
+    <g
+       id="workbench_2-water_2"
+       transform="translate(1924,910)">
+      <path
+         d="m 0,0 v 51 h -560 v 51"
+         class="line-border"
+         id="path4038" />
+      <path
+         d="m 0,0 v 51 h -560 v 51"
+         class="line"
+         id="path4040" />
+    </g>
+    <g
+       id="gen_2-vents_3"
+       transform="translate(3065,634)">
+      <path
+         d="m 0,0 v 67 h -791 v 35"
+         class="line-border"
+         id="path2595" />
+      <path
+         d="m 0,0 v 67 h -791 v 35"
+         class="line"
+         id="path2597" />
+    </g>
+    <g
+       id="gen_2-heating_3"
+       transform="translate(3049,634)">
+      <path
+         d="m 0,0 v 35 h -1381 v 343"
+         class="line-border"
+         id="path2473" />
+      <path
+         d="m 0,0 v 35 h -1381 v 343"
+         class="line"
+         id="path2475" />
+    </g>
+    <g
+       id="illu_2-range_1"
+       transform="translate(2574,634)">
+      <path
+         d="m 0,0 v 51 h 265 v 51"
+         class="line-border"
+         id="path503" />
+      <path
+         d="m 0,0 v 51 h 265 v 51"
+         class="line"
+         id="path505" />
+    </g>
+    <g
+       id="illu_2-work_2"
+       transform="translate(2542,634)">
+      <path
+         d="m 0,0 v 51 h -570 v 51"
+         class="line-border"
+         id="path498" />
+      <path
+         d="m 0,0 v 51 h -570 v 51"
+         class="line"
+         id="path500" />
+    </g>
+    <g
+       id="lavatory_2-nutrition_2"
+       transform="translate(699,358)">
+      <path
+         d="m 0,0 v 311 h 304 v 67"
+         class="line-border"
+         id="path5361" />
+      <path
+         d="m 0,0 v 311 h 304 v 67"
+         class="line"
+         id="path5363" />
+    </g>
+    <g
+       id="heating_3-rest_3"
+       transform="translate(1636,1168)">
+      <path
+         d="m 0,0 v 35 h -1515 v 325"
+         class="line-border"
+         id="path8005" />
+      <path
+         d="m 0,0 v 35 h -1515 v 325"
+         class="line"
+         id="path8007" />
+    </g>
+    <g
+       id="gen_3-rest_3"
+       transform="translate(3065,1426)">
+      <path
+         d="m 0,0 v 19 h -2928 v 83"
+         class="line-border"
+         id="path10789" />
+      <path
+         d="m 0,0 v 19 h -2928 v 83"
+         class="line"
+         id="path10791" />
+    </g>
+    <g
+       id="gen_3-solar_1"
+       transform="translate(3097,1426)">
+      <path
+         d="m 0,0 v 51 h -1125 v 51"
+         class="line-border"
+         id="path12131" />
+      <path
+         d="m 0,0 v 51 h -1125 v 51"
+         class="line"
+         id="path12133" />
+    </g>
+    <g
+       id="gen_3-water_3"
+       transform="translate(3081,1426)">
+      <path
+         d="m 0,0 v 35 h -1701 v 67"
+         class="line-border"
+         id="path12371" />
+      <path
+         d="m 0,0 v 35 h -1701 v 67"
+         class="line"
+         id="path12373" />
+    </g>
+    <g
+       id="gen_3-stash_4"
+       transform="translate(3129,1426)">
+      <path
+         d="m 0,0 v 857 h -2689 v 35"
+         class="line-border"
+         id="path13724" />
+      <path
+         d="m 0,0 v 857 h -2689 v 35"
+         class="line"
+         id="path13726" />
+    </g>
+    <g
+       id="heating_3-stash_4"
+       transform="translate(1652,1168)">
+      <path
+         d="m 0,0 v 51 h -1244 v 1099"
+         class="line-border"
+         id="path13845" />
+      <path
+         d="m 0,0 v 51 h -1244 v 1099"
+         class="line"
+         id="path13847" />
+    </g>
+    <g
+       id="workbench_3-stash_4"
+       transform="translate(1940,1168)">
+      <path
+         d="m 0,0 v 67 h -1516 v 1083"
+         class="line-border"
+         id="path13972" />
+      <path
+         d="m 0,0 v 67 h -1516 v 1083"
+         class="line"
+         id="path13974" />
+    </g>
+    <g
+       id="gen_3-bitcoin_2"
+       transform="translate(3145,1426)">
+      <path
+         d="m 0,0 v 858 h 1028 v 34"
+         class="line-border"
+         id="path16831" />
+      <path
+         d="m 0,0 v 858 h 1028 v 34"
+         class="line"
+         id="path16833" />
+    </g>
+    <g
+       id="int_3-stash_4"
+       transform="translate(3812,2217)">
+      <path
+         d="m 0,0 v 82 h -3356 v 19"
+         class="line-border"
+         id="path8436" />
+      <path
+         d="m 0,0 v 82 h -3356 v 19"
+         class="line"
+         id="path8438" />
+    </g>
+    <g
+       id="water_3-bitcoin_3"
+       transform="translate(1364,1684)">
+      <path
+         d="m 0,0 v 66 h 576 v 739 h 2217 v 51"
+         class="line-border"
+         id="path5987" />
+      <path
+         d="m 0,0 v 66 h 576 v 739 h 2217 v 51"
+         class="line"
+         id="path5989" />
+    </g>
+    <g
+       id="solar_1-bitcoin_3"
+       transform="translate(1956,1684)">
+      <path
+         d="m 0,0 v 789 h 2217 v 67"
+         class="line-border"
+         id="path5981" />
+      <path
+         d="m 0,0 v 789 h 2217 v 67"
+         class="line"
+         id="path5983" />
+    </g>
+    <g
+       id="gen_3-int_3"
+       transform="translate(3161,1426)">
+      <path
+         d="m 0,0 v 600 h 635 v 35"
+         class="line-border"
+         id="path18208" />
+      <path
+         d="m 0,0 v 584 h 635 v 51"
+         class="line"
+         id="path18210" />
+    </g>
+    <g
+       id="water_2-lavatory_3"
+       transform="translate(1332,1168)">
+      <path
+         d="m 0,0 v 19 h -633 v 83"
+         class="line-border"
+         id="path31704" />
+      <path
+         d="m 0,0 v 19 h -633 v 83"
+         class="line"
+         id="path31706" />
+    </g>
+    <g
+       id="stash_2-nutrition_3"
+       transform="translate(376,358)">
+      <path
+         d="m 0,0 v 83 h 275 v 568 h 384 v 519"
+         class="line-border"
+         id="path15458" />
+      <path
+         d="m 0,0 v 83 h 275 v 568 h 384 v 519"
+         class="line"
+         id="path15460" />
+    </g>
+    <g
+       id="gen_1-nutrition_1"
+       transform="translate(3081,358)">
+      <path
+         d="m 0,0 v 35 h -2062 v 67"
+         class="line-border"
+         id="path4423" />
+      <path
+         d="m 0,0 v 35 h -2062 v 67"
+         class="line"
+         id="path4425" />
+    </g>
+    <g
+       id="vents_2-int_1"
+       transform="translate(2290,358)">
+      <path
+         d="m 0,0 v 51 h 1538 v 327"
+         class="line-border"
+         id="path5596" />
+      <path
+         d="m 0,0 v 51 h 1538 v 327"
+         class="line"
+         id="path5598" />
+    </g>
+    <g
+       id="sec_2-int_1"
+       transform="translate(3441,358)">
+      <path
+         d="m 0,0 v 67 h 355 v 311"
+         class="line-border"
+         id="path488" />
+      <path
+         d="m 0,0 v 67 h 355 v 311"
+         class="line"
+         id="path490" />
+    </g>
+    <g
+       id="sec_2-gen_2"
+       transform="translate(3393,358)">
+      <path
+         d="m 0,0 v 67 h -264 v 35"
+         class="line-border"
+         id="path493" />
+      <path
+         d="m 0,0 v 67 h -264 v 35"
+         class="line"
+         id="path495" />
+    </g>
+    <g
+       id="vents_2-gen_2"
+       transform="translate(2274,358)">
+      <path
+         d="m 0,0 v 83 h 822 v 19"
+         class="line-border"
+         id="path5723" />
+      <path
+         d="m 0,0 v 83 h 822 v 19"
+         class="line"
+         id="path5725" />
+    </g>
+    <g
+       id="gen_1-illu_2"
+       transform="translate(3097,358)">
+      <path
+         d="m 0,0 v 67 h -523 v 35"
+         class="line-border"
+         id="path483" />
+      <path
+         d="m 0,0 v 67 h -523 v 35"
+         class="line"
+         id="path485" />
+    </g>
+    <g
+       id="vents_2-stash_3"
+       transform="translate(2242,358)">
+      <path
+         d="m 0,0 v 67 h -1818 v 35"
+         class="line-border"
+         id="path26958" />
+      <path
+         d="m 0,0 v 67 h -1818 v 35"
+         class="line"
+         id="path26960" />
+    </g>
+    <g
+       id="heating_2-stash_3"
+       transform="translate(1636,358)">
+      <path
+         d="m 0,0 v 51 h -1228 v 51"
+         class="line-border"
+         id="path22133" />
+      <path
+         d="m 0,0 v 51 h -1228 v 51"
+         class="line"
+         id="path22135" />
+    </g>
+    <g
+       id="stash_2-workbench_3"
+       transform="translate(408,358)">
+      <path
+         d="m 0,0 v 35 h 259 v 600 h 1273 v 19"
+         class="line-border"
+         id="path15337" />
+      <path
+         d="m 0,0 v 35 h 259 v 600 h 1273 v 19"
+         class="line"
+         id="path15339" />
+    </g>
+    <g
+       id="workbench_2-heating_3"
+       transform="translate(1940,910)">
+      <path
+         d="m 0,0 v 67 h -256 v 35"
+         class="line-border"
+         id="path4032" />
+      <path
+         d="m 0,0 v 67 h -256 v 35"
+         class="line"
+         id="path4034" />
+    </g>
+    <g
+       id="lavatory_3-nutrition_3"
+       transform="translate(683,1426)">
+      <path
+         d="m 0,0 v 51 h 320 v 51"
+         class="line-border"
+         id="path10668" />
+      <path
+         d="m 0,0 v 51 h 320 v 51"
+         class="line"
+         id="path10670" />
+    </g>
+    <g
+       id="workbench_3-int_3"
+       transform="translate(1988,1168)">
+      <path
+         d="m 0,0 v 341 h 1125 v 517 h 667 v 35"
+         class="line-border"
+         id="path19589" />
+      <path
+         d="m 0,0 v 341 h 1125 v 517 h 667 v 35"
+         class="line"
+         id="path19591" />
+    </g>
+    <g
+       id="gen_3-air_1"
+       transform="translate(3113,1426)">
+      <path
+         d="m 0,0 v 67 h -839 v 35"
+         class="line-border"
+         id="path15490" />
+      <path
+         d="m 0,0 v 67 h -839 v 35"
+         class="line"
+         id="path15492" />
+    </g>
+    <g
+       id="gen_2-nutrition_3"
+       transform="translate(3081,634)">
+      <path
+         d="m 0,0 v 617 h -2030 v 277"
+         class="line-border"
+         id="path22238" />
+      <path
+         d="m 0,0 v 617 h -2030 v 277"
+         class="line"
+         id="path22240" />
+    </g>
+    <g
+       id="heating_3-water_3"
+       transform="translate(1668,1168)">
+      <path
+         d="m 0,0 v 99 h -304 v 261"
+         class="line-border"
+         id="path9332" />
+      <path
+         d="m 0,0 v 99 h -304 v 261"
+         class="line"
+         id="path9334" />
+    </g>
+    <g
+       id="rest_1-rest_2"
+       transform="translate(105,120)">
+      <path
+         d="m 0,0 v 616"
+         class="line-border"
+         id="path15046" />
+      <path
+         d="m 0,0 v 616"
+         class="line"
+         id="path15048" />
+    </g>
+    <g
+       id="stash_1-stash_2"
+       transform="translate(392,120)">
+      <path
+         d="m 0,0 v 100"
+         class="line-border"
+         id="path15040" />
+      <path
+         d="m 0,0 v 100"
+         class="line"
+         id="path15042" />
+    </g>
+    <g
+       id="lavatory_1-lavatory_2"
+       transform="translate(683,120)">
+      <path
+         d="m 0,0 v 100"
+         class="line-border"
+         id="path14919" />
+      <path
+         d="m 0,0 v 100"
+         class="line"
+         id="path14921" />
+    </g>
+    <g
+       id="water_1-water_2"
+       transform="translate(1348,120)">
+      <path
+         d="m 0,0 v 892"
+         class="line-border"
+         id="path14907" />
+      <path
+         d="m 0,0 v 892"
+         class="line"
+         id="path14909" />
+    </g>
+    <g
+       id="heating_1-heating_2"
+       transform="translate(1652,120)">
+      <path
+         d="m 0,0 v 100"
+         class="line-border"
+         id="path13816" />
+      <path
+         d="m 0,0 v 100"
+         class="line"
+         id="path13818" />
+    </g>
+    <g
+       id="workbench_1-workbench_2"
+       transform="translate(1956,120)">
+      <path
+         d="m 0,0 v 616"
+         class="line-border"
+         id="path12496" />
+      <path
+         d="m 0,0 v 616"
+         class="line"
+         id="path12498" />
+    </g>
+    <g
+       id="vents_1-vents_2"
+       transform="translate(2258,120)">
+      <path
+         d="m 0,0 v 100"
+         class="line-border"
+         id="path11416" />
+      <path
+         d="m 0,0 v 100"
+         class="line"
+         id="path11418" />
+    </g>
+    <g
+       id="illu_1-illu_2"
+       transform="translate(2558,120)">
+      <path
+         d="m 0,0 v 340"
+         class="line-border"
+         id="path1042" />
+      <path
+         d="m 0,0 v 340"
+         class="line"
+         id="path1044" />
+    </g>
+    <g
+       id="sec_1-sec_2"
+       transform="translate(3425,120)">
+      <path
+         d="m 0,0 v 100"
+         class="line-border"
+         id="path55951" />
+      <path
+         d="m 0,0 v 100"
+         class="line"
+         id="path55953" />
+    </g>
+    <g
+       id="med_1-med_2"
+       transform="translate(4189,120)">
+      <path
+         d="m 0,0 v 340"
+         class="line-border"
+         id="path57212" />
+      <path
+         d="m 0,0 v 340"
+         class="line"
+         id="path57214" />
+    </g>
+    <g
+       id="stash_2-stash_3"
+       transform="translate(392,358)">
+      <path
+         d="m 0,0 v 102"
+         class="line-border"
+         id="path15064" />
+      <path
+         d="m 0,0 v 102"
+         class="line"
+         id="path15066" />
+    </g>
+    <g
+       id="lavatory_2-lavatory_3"
+       transform="translate(683,358)">
+      <path
+         d="m 0,0 v 912"
+         class="line-border"
+         id="path15076" />
+      <path
+         d="m 0,0 v 912"
+         class="line"
+         id="path15078" />
+    </g>
+    <g
+       id="heating_2-heating_3"
+       transform="translate(1652,358)">
+      <path
+         d="m 0,0 v 654"
+         class="line-border"
+         id="path22127" />
+      <path
+         d="m 0,0 v 654"
+         class="line"
+         id="path22129" />
+    </g>
+    <g
+       id="vents_2-vents_3"
+       transform="translate(2258,358)">
+      <path
+         d="m 0,0 v 378"
+         class="line-border"
+         id="path5602" />
+      <path
+         d="m 0,0 v 378"
+         class="line"
+         id="path5604" />
+    </g>
+    <g
+       id="gen_1-gen_2"
+       transform="translate(3113,358)">
+      <path
+         d="m 0,0 v 102"
+         class="line-border"
+         id="path57331" />
+      <path
+         d="m 0,0 v 102"
+         class="line"
+         id="path57333" />
+    </g>
+    <g
+       id="sec_2-sec_3"
+       transform="translate(3425,358)">
+      <path
+         d="m 0,0 v 654"
+         class="line-border"
+         id="path11726" />
+      <path
+         d="m 0,0 v 654"
+         class="line"
+         id="path11728" />
+    </g>
+    <g
+       id="stash_3-stash_4"
+       transform="translate(392,634)">
+      <path
+         d="m 0,0 v 1684"
+         class="line-border"
+         id="path15070" />
+      <path
+         d="m 0,0 v 1684"
+         class="line"
+         id="path15072" />
+    </g>
+    <g
+       id="nutrition_1-nutrition_2"
+       transform="translate(1019,634)">
+      <path
+         d="m 0,0 v 102"
+         class="line-border"
+         id="path15082" />
+      <path
+         d="m 0,0 v 102"
+         class="line"
+         id="path15084" />
+    </g>
+    <g
+       id="illu_2-illu_3"
+       transform="translate(2558,634)">
+      <path
+         d="m 0,0 v 102"
+         class="line-border"
+         id="path2207" />
+      <path
+         d="m 0,0 v 102"
+         class="line"
+         id="path2209" />
+    </g>
+    <g
+       id="gen_2-gen_3"
+       transform="translate(3113,634)">
+      <path
+         d="m 0,0 v 636"
+         class="line-border"
+         id="path59633" />
+      <path
+         d="m 0,0 v 636"
+         class="line"
+         id="path59635" />
+    </g>
+    <g
+       id="med_2-med_3"
+       transform="translate(4189,634)">
+      <path
+         d="m 0,0 v 102"
+         class="line-border"
+         id="path59639" />
+      <path
+         d="m 0,0 v 102"
+         class="line"
+         id="path59641" />
+    </g>
+    <g
+       id="rest_2-rest_3"
+       transform="translate(105,910)">
+      <path
+         d="m 0,0 v 618"
+         class="line-border"
+         id="path15052" />
+      <path
+         d="m 0,0 v 618"
+         class="line"
+         id="path15054" />
+    </g>
+    <g
+       id="nutrition_2-nutrition_3"
+       transform="translate(1019,910)">
+      <path
+         d="m 0,0 v 618"
+         class="line-border"
+         id="path15088" />
+      <path
+         d="m 0,0 v 618"
+         class="line"
+         id="path15090" />
+    </g>
+    <g
+       id="workbench_2-workbench_3"
+       transform="translate(1956,910)">
+      <path
+         d="m 0,0 v 102"
+         class="line-border"
+         id="path4026" />
+      <path
+         d="m 0,0 v 102"
+         class="line"
+         id="path4028" />
+    </g>
+    <g
+       id="vents_3-air_1"
+       transform="translate(2258,910)">
+      <path
+         d="m 0,0 v 618"
+         class="line-border"
+         id="path30533" />
+      <path
+         d="m 0,0 v 618"
+         class="line"
+         id="path30535" />
+    </g>
+    <g
+       id="int_1-int_2"
+       transform="translate(3812,910)">
+      <path
+         d="m 0,0 v 875"
+         class="line-border"
+         id="path11525" />
+      <path
+         d="m 0,0 v 875"
+         class="line"
+         id="path11527" />
+    </g>
+    <g
+       id="water_2-water_3"
+       transform="translate(1348,1168)">
+      <path
+         d="m 0,0 v 360"
+         class="line-border"
+         id="path16216" />
+      <path
+         d="m 0,0 v 360"
+         class="line"
+         id="path16218" />
+    </g>
+    <g
+       id="workbench_3-solar_1"
+       transform="translate(1956,1168)">
+      <path
+         d="m 0,0 v 360"
+         class="line-border"
+         id="path12250" />
+      <path
+         d="m 0,0 v 360"
+         class="line"
+         id="path12252" />
+    </g>
+    <g
+       id="rest_3-library_1"
+       transform="translate(105,1684)">
+      <path
+         d="m 0,0 v 101"
+         class="line-border"
+         id="path15058" />
+      <path
+         d="m 0,0 v 101"
+         class="line"
+         id="path15060" />
+    </g>
+    <g
+       id="water_3-booze_1"
+       transform="translate(1348,1684)">
+      <path
+         d="m 0,0 v 101"
+         class="line-border"
+         id="path17347" />
+      <path
+         d="m 0,0 v 101"
+         class="line"
+         id="path17349" />
+    </g>
+    <g
+       id="int_2-int_3"
+       transform="translate(3812,1959)">
+      <path
+         d="m 0,0 v 102"
+         class="line-border"
+         id="path10274" />
+      <path
+         d="m 0,0 v 102"
+         class="line"
+         id="path10276" />
+    </g>
+    <g
+       id="bitcoin_1-bitcoin_2"
+       transform="translate(4189,2217)">
+      <path
+         d="m 0,0 v 101"
+         class="line-border"
+         id="path10262" />
+      <path
+         d="m 0,0 v 101"
+         class="line"
+         id="path10264" />
+    </g>
+    <g
+       id="bitcoin_2-bitcoin_3"
+       transform="translate(4189,2438)">
+      <path
+         d="m 0,0 v 102"
+         class="line-border"
+         id="path10268" />
+      <path
+         d="m 0,0 v 102"
+         class="line"
+         id="path10270" />
+    </g>
+  </g>
+  <g id="group-stations">
+    <g
        id="rest_1"
-       class="station tier-1"
-       transform="translate(34,34)">
+       class="station tier-1">
       <rect
          width="210"
          height="120"
@@ -340,7 +1097,7 @@ text.station-name { font-size:20px; }
     <g
        id="rest_2"
        class="station tier-2"
-       transform="translate(34,770)">
+       transform="translate(0,736)">
       <rect
          width="210"
          height="174"
@@ -436,7 +1193,7 @@ text.station-name { font-size:20px; }
     <g
        id="rest_3"
        class="station tier-3"
-       transform="translate(34,1562)">
+       transform="translate(0,1528)">
       <rect
          width="210"
          height="156"
@@ -532,7 +1289,7 @@ text.station-name { font-size:20px; }
     <g
        id="library_1"
        class="station tier-1"
-       transform="translate(34,1819)">
+       transform="translate(0,1785)">
       <rect
          width="210"
          height="174"
@@ -673,7 +1430,7 @@ text.station-name { font-size:20px; }
     <g
        id="stash_1"
        class="station tier-1"
-       transform="translate(346,34)">
+       transform="translate(312)">
       <rect
          width="160"
          height="120"
@@ -693,7 +1450,7 @@ text.station-name { font-size:20px; }
     <g
        id="stash_2"
        class="station tier-2"
-       transform="translate(346,254)">
+       transform="translate(312,220)">
       <rect
          width="160"
          height="138"
@@ -789,7 +1546,7 @@ text.station-name { font-size:20px; }
     <g
        id="stash_3"
        class="station tier-3"
-       transform="translate(346,494)">
+       transform="translate(312,460)">
       <rect
          width="160"
          height="174"
@@ -900,7 +1657,7 @@ text.station-name { font-size:20px; }
     <g
        id="stash_4"
        class="station tier-4"
-       transform="translate(346,2352)">
+       transform="translate(312,2318)">
       <rect
          width="160"
          height="120"
@@ -966,7 +1723,7 @@ text.station-name { font-size:20px; }
     <g
        id="lavatory_1"
        class="station tier-1"
-       transform="translate(608,34)">
+       transform="translate(574)">
       <rect
          width="218"
          height="120"
@@ -1047,7 +1804,7 @@ text.station-name { font-size:20px; }
     <g
        id="lavatory_2"
        class="station tier-2"
-       transform="translate(608,254)">
+       transform="translate(574,220)">
       <rect
          width="218"
          height="138"
@@ -1143,7 +1900,7 @@ text.station-name { font-size:20px; }
     <g
        id="lavatory_3"
        class="station tier-3"
-       transform="translate(608,1304)">
+       transform="translate(574,1270)">
       <rect
          width="218"
          height="156"
@@ -1224,7 +1981,7 @@ text.station-name { font-size:20px; }
     <g
        id="nutrition_1"
        class="station tier-1"
-       transform="translate(927,494)">
+       transform="translate(893,460)">
       <rect
          width="252"
          height="174"
@@ -1290,7 +2047,7 @@ text.station-name { font-size:20px; }
     <g
        id="nutrition_2"
        class="station tier-2"
-       transform="translate(927,770)">
+       transform="translate(893,736)">
       <rect
          width="252"
          height="174"
@@ -1371,7 +2128,7 @@ text.station-name { font-size:20px; }
     <g
        id="nutrition_3"
        class="station tier-3"
-       transform="translate(927,1562)">
+       transform="translate(893,1528)">
       <rect
          width="252"
          height="156"
@@ -1467,7 +2224,7 @@ text.station-name { font-size:20px; }
     <g
        id="water_1"
        class="station tier-1"
-       transform="translate(1282,34)">
+       transform="translate(1248)">
       <rect
          width="200"
          height="120"
@@ -1548,7 +2305,7 @@ text.station-name { font-size:20px; }
     <g
        id="water_2"
        class="station tier-2"
-       transform="translate(1282,1046)">
+       transform="translate(1248,1012)">
       <rect
          width="200"
          height="156"
@@ -1659,7 +2416,7 @@ text.station-name { font-size:20px; }
     <g
        id="water_3"
        class="station tier-3"
-       transform="translate(1282,1562)">
+       transform="translate(1248,1528)">
       <rect
          width="200"
          height="156"
@@ -1755,7 +2512,7 @@ text.station-name { font-size:20px; }
     <g
        id="booze_1"
        class="station tier-1"
-       transform="translate(1282,1819)">
+       transform="translate(1248,1785)">
       <rect
          width="200"
          height="174"
@@ -1881,7 +2638,7 @@ text.station-name { font-size:20px; }
     <g
        id="heating_1"
        class="station tier-1"
-       transform="translate(1582,34)">
+       transform="translate(1548)">
       <rect
          width="208"
          height="120"
@@ -1932,7 +2689,7 @@ text.station-name { font-size:20px; }
     <g
        id="heating_2"
        class="station tier-2"
-       transform="translate(1582,254)">
+       transform="translate(1548,220)">
       <rect
          width="208"
          height="138"
@@ -2028,9 +2785,9 @@ text.station-name { font-size:20px; }
     <g
        id="heating_3"
        class="station tier-3"
-       transform="translate(1490,1055)">
+       transform="translate(1548,1012)">
       <rect
-         width="158"
+         width="208"
          height="156"
          id="rect3664"
          x="0"
@@ -2076,6 +2833,36 @@ text.station-name { font-size:20px; }
         </g>
         <g
            transform="translate(20,84)"
+           class="req-item"
+           id="g3066">
+          <circle
+             r="2"
+             id="circle3062"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text3064">4 Phase Control Relay</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g3060">
+          <circle
+             r="2"
+             id="circle3056"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text3058">2 Military Corrugated Tube</text>
+        </g>
+        <g
+           transform="translate(20,120)"
            class="req-trader"
            id="g3684">
           <circle
@@ -2094,7 +2881,7 @@ text.station-name { font-size:20px; }
     <g
        id="workbench_1"
        class="station tier-1"
-       transform="translate(1894,34)">
+       transform="translate(1860)">
       <rect
          width="192"
          height="120"
@@ -2160,7 +2947,7 @@ text.station-name { font-size:20px; }
     <g
        id="workbench_2"
        class="station tier-2"
-       transform="translate(1894,770)">
+       transform="translate(1860,736)">
       <rect
          width="192"
          height="174"
@@ -2256,7 +3043,7 @@ text.station-name { font-size:20px; }
     <g
        id="workbench_3"
        class="station tier-3"
-       transform="translate(1894,1055)">
+       transform="translate(1860,1012)">
       <rect
          width="192"
          height="156"
@@ -2285,7 +3072,7 @@ text.station-name { font-size:20px; }
              xml:space="preserve"
              x="10"
              y="5"
-             id="text4823">195,000 Roubles</text>
+             id="text4823">395,000 Roubles</text>
         </g>
         <g
            transform="translate(20,66)"
@@ -2300,7 +3087,7 @@ text.station-name { font-size:20px; }
              xml:space="preserve"
              x="10"
              y="5"
-             id="text4829">2 Pliers Elite</text>
+             id="text4829">2 Can Of Thermite</text>
         </g>
         <g
            transform="translate(20,84)"
@@ -2315,10 +3102,25 @@ text.station-name { font-size:20px; }
              xml:space="preserve"
              x="10"
              y="5"
-             id="text4835">1 FireKlean Gun Lube</text>
+             id="text4835">2 Pliers Elite</text>
         </g>
         <g
            transform="translate(20,102)"
+           class="req-item"
+           id="g2065">
+          <circle
+             r="2"
+             id="circle2061"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text2063">1 FireKlean Gun Lube</text>
+        </g>
+        <g
+           transform="translate(20,120)"
            class="req-trader"
            id="g4843">
           <circle
@@ -2337,7 +3139,7 @@ text.station-name { font-size:20px; }
     <g
        id="solar_1"
        class="station tier-1"
-       transform="translate(1894,1562)">
+       transform="translate(1860,1528)">
       <rect
          width="192"
          height="156"
@@ -2448,7 +3250,7 @@ text.station-name { font-size:20px; }
     <g
        id="vents_1"
        class="station tier-1"
-       transform="translate(2188,34)">
+       transform="translate(2154)">
       <rect
          width="208"
          height="120"
@@ -2484,7 +3286,7 @@ text.station-name { font-size:20px; }
     <g
        id="vents_2"
        class="station tier-2"
-       transform="translate(2188,254)">
+       transform="translate(2154,220)">
       <rect
          width="208"
          height="138"
@@ -2565,7 +3367,7 @@ text.station-name { font-size:20px; }
     <g
        id="vents_3"
        class="station tier-3"
-       transform="translate(2188,770)">
+       transform="translate(2154,736)">
       <rect
          width="208"
          height="174"
@@ -2676,7 +3478,7 @@ text.station-name { font-size:20px; }
     <g
        id="air_filter_1"
        class="station tier-1"
-       transform="translate(2188,1562)">
+       transform="translate(2154,1528)">
       <rect
          width="208"
          height="156"
@@ -2772,7 +3574,7 @@ text.station-name { font-size:20px; }
     <g
        id="illumination_1"
        class="station tier-1"
-       transform="translate(2498,34)">
+       transform="translate(2464)">
       <rect
          width="188"
          height="120"
@@ -2823,7 +3625,7 @@ text.station-name { font-size:20px; }
     <g
        id="illumination_2"
        class="station tier-2"
-       transform="translate(2498,494)">
+       transform="translate(2464,460)">
       <rect
          width="188"
          height="174"
@@ -2874,7 +3676,7 @@ text.station-name { font-size:20px; }
     <g
        id="illumination_3"
        class="station tier-3"
-       transform="translate(2498,770)">
+       transform="translate(2464,736)">
       <rect
          width="188"
          height="174"
@@ -2970,7 +3772,7 @@ text.station-name { font-size:20px; }
     <g
        id="range_1"
        class="station tier-1"
-       transform="translate(2790,770)">
+       transform="translate(2756,736)">
       <rect
          width="166"
          height="174"
@@ -3081,7 +3883,7 @@ text.station-name { font-size:20px; }
     <g
        id="generator_1"
        class="station tier-1"
-       transform="translate(3057,254)">
+       transform="translate(3023,220)">
       <rect
          width="180"
          height="138"
@@ -3132,7 +3934,7 @@ text.station-name { font-size:20px; }
     <g
        id="generator_2"
        class="station tier-2"
-       transform="translate(3057,494)">
+       transform="translate(3023,460)">
       <rect
          width="180"
          height="174"
@@ -3213,7 +4015,7 @@ text.station-name { font-size:20px; }
     <g
        id="generator_3"
        class="station tier-3"
-       transform="translate(3057,1304)">
+       transform="translate(3023,1270)">
       <rect
          width="180"
          height="156"
@@ -3322,120 +4124,9 @@ text.station-name { font-size:20px; }
       </g>
     </g>
     <g
-       id="scav_case_1"
-       class="station tier-1"
-       transform="translate(3339,2095)">
-      <rect
-         width="240"
-         height="156"
-         id="rect86443"
-         x="0"
-         y="0" />
-      <text
-         class="station-name"
-         xml:space="preserve"
-         y="28"
-         x="9"
-         id="text86445">Scav Case</text>
-      <g
-         class="requirements"
-         id="g86483">
-        <g
-           transform="translate(20,48)"
-           class="req-item"
-           id="g86451">
-          <circle
-             r="2"
-             id="circle86447"
-             cx="0"
-             cy="0" />
-          <text
-             xml:space="preserve"
-             x="10"
-             y="5"
-             id="text86449">8 Golden Neck Chain</text>
-        </g>
-        <g
-           transform="translate(20,66)"
-           class="req-item"
-           id="g86457">
-          <circle
-             r="2"
-             id="circle86453"
-             cx="0"
-             cy="0" />
-          <text
-             xml:space="preserve"
-             x="10"
-             y="5"
-             id="text86455">6 Gold Skull Ring</text>
-        </g>
-        <g
-           transform="translate(20,84)"
-           class="req-item"
-           id="g86463">
-          <circle
-             r="2"
-             id="circle86459"
-             cx="0"
-             cy="0" />
-          <text
-             xml:space="preserve"
-             x="10"
-             y="5"
-             id="text86461">6 P4 Bronze Lion</text>
-        </g>
-        <g
-           transform="translate(20,102)"
-           class="req-item"
-           id="g86469">
-          <circle
-             r="2"
-             id="circle86465"
-             cx="0"
-             cy="0" />
-          <text
-             xml:space="preserve"
-             x="10"
-             y="5"
-             id="text86467">4 Roler</text>
-        </g>
-        <g
-           transform="translate(20,120)"
-           class="req-item"
-           id="g86475">
-          <circle
-             r="2"
-             id="circle86471"
-             cx="0"
-             cy="0" />
-          <text
-             xml:space="preserve"
-             x="10"
-             y="5"
-             id="text86473">3 Moonshine</text>
-        </g>
-        <g
-           transform="translate(20,138)"
-           class="req-item"
-           id="g86481">
-          <circle
-             r="2"
-             id="circle86477"
-             cx="0"
-             cy="0" />
-          <text
-             xml:space="preserve"
-             x="10"
-             y="5"
-             id="text86479">1 Lucky Scav Junk Box</text>
-        </g>
-      </g>
-    </g>
-    <g
        id="security_1"
        class="station tier-1"
-       transform="translate(3339,34)">
+       transform="translate(3305)">
       <rect
          width="240"
          height="120"
@@ -3486,7 +4177,7 @@ text.station-name { font-size:20px; }
     <g
        id="security_2"
        class="station tier-2"
-       transform="translate(3339,254)">
+       transform="translate(3305,220)">
       <rect
          width="240"
          height="138"
@@ -3582,7 +4273,7 @@ text.station-name { font-size:20px; }
     <g
        id="security_3"
        class="station tier-3"
-       transform="translate(3339,1046)">
+       transform="translate(3305,1012)">
       <rect
          width="240"
          height="156"
@@ -3678,7 +4369,7 @@ text.station-name { font-size:20px; }
     <g
        id="intelligence_1"
        class="station tier-1"
-       transform="translate(3681,770)">
+       transform="translate(3647,736)">
       <rect
          width="330"
          height="174"
@@ -3744,7 +4435,7 @@ text.station-name { font-size:20px; }
     <g
        id="intelligence_2"
        class="station tier-2"
-       transform="translate(3681,1819)">
+       transform="translate(3647,1785)">
       <rect
          width="330"
          height="174"
@@ -3855,7 +4546,7 @@ text.station-name { font-size:20px; }
     <g
        id="intelligence_3"
        class="station tier-3"
-       transform="translate(3681,2095)">
+       transform="translate(3647,2061)">
       <rect
          width="330"
          height="156"
@@ -3966,7 +4657,7 @@ text.station-name { font-size:20px; }
     <g
        id="medstation_1"
        class="station tier-1"
-       transform="translate(4113,34)">
+       transform="translate(4079)">
       <rect
          width="220"
          height="120"
@@ -4047,7 +4738,7 @@ text.station-name { font-size:20px; }
     <g
        id="medstation_2"
        class="station tier-2"
-       transform="translate(4113,494)">
+       transform="translate(4079,460)">
       <rect
          width="220"
          height="174"
@@ -4173,7 +4864,7 @@ text.station-name { font-size:20px; }
     <g
        id="medstation_3"
        class="station tier-3"
-       transform="translate(4113,770)">
+       transform="translate(4079,736)">
       <rect
          width="220"
          height="174"
@@ -4299,7 +4990,7 @@ text.station-name { font-size:20px; }
     <g
        id="bitcoin_1"
        class="station tier-1"
-       transform="translate(4113,2095)">
+       transform="translate(4079,2061)">
       <rect
          width="220"
          height="156"
@@ -4395,7 +5086,7 @@ text.station-name { font-size:20px; }
     <g
        id="bitcoin_2"
        class="station tier-2"
-       transform="translate(4113,2352)">
+       transform="translate(4079,2318)">
       <rect
          width="220"
          height="120"
@@ -4476,7 +5167,7 @@ text.station-name { font-size:20px; }
     <g
        id="bitcoin_3"
        class="station tier-3"
-       transform="translate(4113,2574)">
+       transform="translate(4079,2540)">
       <rect
          width="220"
          height="120"
@@ -4551,6 +5242,117 @@ text.station-name { font-size:20px; }
              x="10"
              y="5"
              id="text85465">4 Electric Motor</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="scav_case_1"
+       class="station tier-1"
+       transform="translate(4403,2061)">
+      <rect
+         width="188"
+         height="156"
+         id="rect86443"
+         x="0"
+         y="0" />
+      <text
+         class="station-name"
+         xml:space="preserve"
+         y="28"
+         x="9"
+         id="text86445">Scav Case</text>
+      <g
+         class="requirements"
+         id="g86483">
+        <g
+           transform="translate(20,48)"
+           class="req-item"
+           id="g86451">
+          <circle
+             r="2"
+             id="circle86447"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text86449">8 Golden Neck Chain</text>
+        </g>
+        <g
+           transform="translate(20,66)"
+           class="req-item"
+           id="g86457">
+          <circle
+             r="2"
+             id="circle86453"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text86455">6 Gold Skull Ring</text>
+        </g>
+        <g
+           transform="translate(20,84)"
+           class="req-item"
+           id="g86463">
+          <circle
+             r="2"
+             id="circle86459"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text86461">6 Bronze Lion</text>
+        </g>
+        <g
+           transform="translate(20,102)"
+           class="req-item"
+           id="g86469">
+          <circle
+             r="2"
+             id="circle86465"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text86467">4 Roler</text>
+        </g>
+        <g
+           transform="translate(20,120)"
+           class="req-item"
+           id="g86475">
+          <circle
+             r="2"
+             id="circle86471"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text86473">3 Moonshine</text>
+        </g>
+        <g
+           transform="translate(20,138)"
+           class="req-item"
+           id="g86481">
+          <circle
+             r="2"
+             id="circle86477"
+             cx="0"
+             cy="0" />
+          <text
+             xml:space="preserve"
+             x="10"
+             y="5"
+             id="text86479">1 Lucky Scav Junk Box</text>
         </g>
       </g>
     </g>
