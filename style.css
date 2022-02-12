@@ -120,7 +120,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100vw;
-
+    max-height: 8vh;
     margin-top: 2rem;
     background: #202020;
     border-top: 1px solid #dbc59c;
@@ -136,10 +136,15 @@ footer #github-link {
     gap: 0.8em;
 }
 
+footer #github-link img {
+    max-height: 6vh;
+}
+
 footer #license {
     font-size: 0.75rem;
     display: flex;
     align-items: center;
+    margin: 0 1rem;
 }
 
 footer #license a {
