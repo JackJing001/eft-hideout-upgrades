@@ -14,122 +14,139 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-#canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    /* width: 100%;
-    height: 100%; */
+header {
+    color: #dbc59c;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    text-transform: capitalize;
+    padding-left: 0.5em;
+    margin-block-end: 0.4em;
+}
+
+header h2 {
+    margin-block-start: 0;
+    margin-block-end: 0.4em;
+    margin-left: 2em;
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+#svg {
+    padding: 16px;
+    margin-bottom: 6rem;
 }
 
 #summary {
+    font-size: 0.8rem;
     background-color: #202020;
-    border: 1px solid #ddd;
+    border: 1px solid #dbc59c;
     padding: 8px 16px 16px 16px;
     position: fixed;
     top: 16px;
-    right: 16px;
     z-index: 99;
-    white-space: nowrap;
+    /* white-space: nowrap; */
+    opacity: 0.9;
 }
 
 #summary.hidden {
     display: none;
 }
 
-#summary h1 {
+#summary .summary-header {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+#summary .summary-header h2 {
     margin-block-start: 0;
     margin-block-end: 0.4em;
+    flex-basis: 100%;
+}
+
+#summary .summary-header span {
+    font-size: 1.25em;
+    line-height: 1em;
+    cursor: pointer;
+    margin-right: -8px;
+    padding: 0.4em;
+    user-select: none;
+    display: flex;
+    align-items: center;
+}
+
+#summary .summary-header span:hover {
+    background: #303030;
 }
 
 #summary .summary-lists {
-    max-height: 50vh;
     padding-right: 16px;
     overflow: auto;
+    height: 50vh;
+    transition: height 1s ease-in-out;
 }
 
 #summary ul {
-    list-style-position: inside;
-    padding-inline-start: 8px;
+    /* list-style-position: inside; */
+    /* padding-inline-start: 8px; */
+    padding-inline-start: 24px;
     margin-block-start: 0;
     margin-block-end: 0;
     text-transform: capitalize;
+    width: 30ch;
 }
 
-#container {
-    background-color: #202020;
-    position: relative;
-    width: max-content;
-    margin: 16px;
-    padding: 16px;
-    display: grid;
-    grid-template-rows: repeat(10, max-content);
-    grid-template-columns: repeat(15, minmax(auto, min-content));
-    gap: 100px 100px;
-    /* overflow: auto; */
-}
-
-.station {
-    border: 2px solid;
-    padding: 8px;
-    background-color: #2a2a2a;
-    white-space: nowrap;
-    text-transform: capitalize;
-    z-index: 9;
-}
-
-.station:hover {
-    cursor: pointer;
-}
-
-.station.lvl1 {
-    /* border-color: #ffa500; */
-    border-color: #84d1ff;
-}
-.station.lvl2 {
-    /* border-color: #0000ff; */
-    border-color: #3737ff;
-}
-.station.lvl3 {
-    /* border-color: orangered; */
-    border-color: #800080;
-}
-.station.lvl4 {
-    /* border-color: #800080; */
-    border-color: #fe5744;
-}
-
-.station ul {
-    list-style-position: inside;
-    padding-inline-start: 8px;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    font-size: 0.9em;
-}
-
-.station .station-name {
-    /* white-space: nowrap; */
-    /* text-transform: capitalize; */
-    font-size: 1.25em;
-    margin-bottom: 0.25em;
-}
-
-:where(.station, #summary) li::marker {
+#summary li::marker {
     color: #fff;
 }
 
-:where(.station, #summary) .prereq-items li {
-    color: #ddd;
+#summary .prereq-items li {
+    color: #fff;
 }
 
-:where(.station, #summary) .prereq-skills li {
+#summary .prereq-skills li {
     color: #d89e00;
 }
 
-:where(.station, #summary) .prereq-traders li {
+#summary .prereq-traders li {
     color: #34a565;
 }
 
-.fadeout {
-    opacity: 0.3;
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+
+    margin-top: 2rem;
+    background: #202020;
+    border-top: 1px solid #dbc59c;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer #github-link {
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+}
+
+footer #license {
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+}
+
+footer #license a {
+    color: #dbc59c;
+}
+
+footer #license-text {
+    width: 48ch;
+    margin-right: 1em;
 }

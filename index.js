@@ -1,86 +1,79 @@
-const store = {
-    highlightedStations: new Set(),
-    clickedStation: '',
+import State from './state.js';
 
-    addHighlightedStations(newHighlights) {
-        newHighlights.forEach((h) => this.highlightedStations.add(h));
-        if (localStorage) {
-            localStorage.setItem(
-                'highlightedStations',
-                Array.from(this.highlightedStations).join()
-            );
-        }
-    },
-
-    clearHighlightedStations() {
-        this.highlightedStations.clear();
-        if (localStorage) {
-            localStorage.setItem('highlightedStations', []);
-        }
-    },
-
-    clickStation(station) {
-        this.clickedStation = station;
-        if (localStorage) {
-            localStorage.setItem('clickedStation', station);
-        }
-    },
-};
-
-let localStorage = window.localStorage;
-if (localStorage) {
-    // load stored settings
-    prevHighlighted = localStorage.getItem('highlightedStations');
-    prevClicked = localStorage.getItem('clickedStation');
-
-    if (prevClicked) {
-        store.clickStation(prevClicked);
-    }
-
-    if (prevHighlighted) {
-        store.addHighlightedStations(prevHighlighted.split(','));
-    }
-} else {
-    console.log('Local storage not available. No persistence');
-}
-
-const elements = {
-    container: document.getElementById('container'),
-    canvas: document.getElementById('canvas'),
+const ELEMENTS = {
+    svg: document.getElementById('svg'),
     summary: document.getElementById('summary'),
 };
 
-let hideout;
-buildHideoutTree().then((res) => {
-    const stationNodes = document.getElementsByClassName('station');
-    Array.from(stationNodes).forEach((e) => {
+const STATE = new State();
+const REQUIRED_STATIONS = {};
+let HIDEOUT;
+
+loadHideoutTree().then((res) => {
+    HIDEOUT = res;
+
+    // precalculate all required stations for each station, so we dont have
+    // to do it on every hover/click/etc, i.e. not only the direct
+    // predecessors but all up to tier 1 stations
+    for (const stationId in HIDEOUT) {
+        const reqStations = findRequiredStations(stationId);
+        REQUIRED_STATIONS[stationId] = reqStations;
+    }
+
+    attatchEventListeners();
+
+    if (STATE.highlightedStations.length) {
+        const stations = STATE.highlightedStations;
+        highlight(stations);
+        showSummary(stations);
+    }
+});
+
+async function loadHideoutTree() {
+    return (await fetch('./hideout.json')).json();
+}
+
+function attatchEventListeners() {
+    ELEMENTS.summary
+        .getElementsByTagName('h2')[0]
+        .addEventListener('mouseup', (e) => {
+            const reqsList =
+                ELEMENTS.summary.getElementsByClassName('summary-lists')[0];
+            if (reqsList.style.height === '0px') {
+                reqsList.style.height = '';
+            } else {
+                reqsList.style.height = '0px';
+            }
+        });
+
+    ELEMENTS.summary
+        .getElementsByTagName('span')[0]
+        .addEventListener('mouseup', (e) => {
+            if (ELEMENTS.summary.style.right === '16px') {
+                ELEMENTS.summary.style.left = '16px';
+                ELEMENTS.summary.style.right = 'initial';
+            } else {
+                ELEMENTS.summary.style.left = 'initial';
+                ELEMENTS.summary.style.right = '16px';
+            }
+        });
+
+    const stations = Array.from(ELEMENTS.svg.getElementsByClassName('station'));
+    stations.forEach((e) => {
         e.addEventListener('mouseenter', onEnterStation);
         e.addEventListener('mouseleave', onLeaveStation);
         e.addEventListener('mouseup', onClickStation);
     });
-    if (store.highlightedStations.size) {
-        highlight();
-        showSummary();
-    }
-});
-
-window.onresize = function () {
-    saveNodeGeometry();
-    drawLines();
-};
+}
 
 function onEnterStation(event) {
-    if (!store.clickedStation) {
-        store.addHighlightedStations(
-            findRequiredStations(event.currentTarget.id)
-        );
-        highlight();
+    if (!STATE.highlightedStations.length) {
+        highlight(REQUIRED_STATIONS[event.currentTarget.id]);
     }
 }
 
-function onLeaveStation(event) {
-    if (!store.clickedStation) {
-        store.clearHighlightedStations();
+function onLeaveStation() {
+    if (!STATE.highlightedStations.length) {
         removeHighlights();
     }
 }
@@ -92,103 +85,25 @@ function onClickStation(event) {
     clearSummary();
     removeHighlights();
 
-    if (store.clickedStation === event.currentTarget.id) {
-        store.clearHighlightedStations();
-        store.clickStation('');
+    if (STATE.highlightedStations.includes(event.currentTarget.id)) {
+        // clicking a highlighted station again "unclicks" it, i.e. removes
+        // the static highlighting and clears the summary
+        STATE.clearHighlights();
+
+        // dispatch mouse enter event to keep the hover highlights; atm identical behavior
+        // as directly calling highlight(REQUIRED_STATIONS[event.currentTarget.id])
         event.currentTarget.dispatchEvent(new Event('mouseenter'));
     } else {
-        store.clickStation(event.currentTarget.id);
         if (event.ctrlKey) {
-            store.addHighlightedStations(
-                findRequiredStations(store.clickedStation)
-            );
+            STATE.addHighlights(REQUIRED_STATIONS[event.currentTarget.id]);
         } else {
-            store.clearHighlightedStations();
-            store.addHighlightedStations(
-                findRequiredStations(store.clickedStation)
-            );
-        }
-        highlight();
-        showSummary();
-    }
-}
-
-function showSummary() {
-    const items = {};
-    const skills = {};
-    const traders = {};
-
-    for (const station of store.highlightedStations.values()) {
-        for (const i of hideout[station].prerequisites.items) {
-            if (items[i.item]) {
-                items[i.item].amount += i.amount;
-            } else {
-                // items[i.item] = { item: i.item, amount: i.amount };
-                items[i.item] = { ...i };
-            }
+            STATE.highlightedStations =
+                REQUIRED_STATIONS[event.currentTarget.id];
         }
 
-        for (const s of hideout[station].prerequisites.skills) {
-            if (!skills[s.name]) {
-                skills[s.name] = { ...s };
-            }
-            if (skills[s.name].lvl < s.lvl) {
-                skills[s.name] = s;
-            }
-        }
-
-        for (const t of hideout[station].prerequisites.traders) {
-            if (!traders[t.name]) {
-                traders[t.name] = { ...t };
-            }
-            if (traders[t.name].lvl < t.lvl) {
-                traders[t.name] = t;
-            }
-        }
-    }
-
-    let lists = document.createElement('div');
-    lists.classList.add('summary-lists');
-
-    let list = document.createElement('ul');
-    list.classList.add('prereq-items');
-
-    const itemValues = Object.values(items).sort((a, b) =>
-        a.amount < b.amount ? 1 : a.amount == b.amount ? 0 : -1
-    );
-
-    for (const i of itemValues) {
-        const node = document.createElement('li');
-        node.innerText = `${i.amount.toLocaleString('en-US')} ${i.item}`;
-        list.appendChild(node);
-    }
-    lists.appendChild(list);
-
-    list = document.createElement('ul');
-    list.classList.add('prereq-skills');
-    for (const s in skills) {
-        const node = document.createElement('li');
-        node.innerText = `${skills[s].name} ${skills[s].lvl}`;
-        list.appendChild(node);
-    }
-    lists.appendChild(list);
-
-    list = document.createElement('ul');
-    list.classList.add('prereq-traders');
-    for (const t in traders) {
-        const node = document.createElement('li');
-        node.innerText = `${traders[t].name} ${traders[t].lvl}`;
-        list.appendChild(node);
-    }
-    lists.appendChild(list);
-    elements.summary.appendChild(lists);
-    elements.summary.classList.remove('hidden');
-}
-
-function clearSummary() {
-    elements.summary.classList.add('hidden');
-    while (elements.summary.childElementCount > 1) {
-        elements.summary.lastElementChild.remove();
+        const stations = STATE.highlightedStations;
+        highlight(stations);
+        showSummary(stations);
     }
 }
 
@@ -199,7 +114,7 @@ function findRequiredStations(stationId) {
     while (queue.length > 0) {
         const currentStation = queue.pop();
         requiredStations.push(currentStation);
-        for (const prereq of hideout[currentStation].prerequisites.stations) {
+        for (const prereq of HIDEOUT[currentStation].prerequisites.stations) {
             if (!queue.includes(prereq) && !requiredStations.includes(prereq)) {
                 queue.push(prereq);
             }
@@ -210,164 +125,107 @@ function findRequiredStations(stationId) {
 }
 
 function removeHighlights() {
-    for (const key in hideout) {
-        document.getElementById(hideout[key].id).classList.remove('fadeout');
+    for (const key in HIDEOUT) {
+        document.getElementById(HIDEOUT[key].id).classList.remove('fadeout');
     }
-    drawLines();
 }
 
-function highlight() {
-    for (const key in hideout) {
-        if (!store.highlightedStations.has(key)) {
-            document.getElementById(hideout[key].id).classList.add('fadeout');
+function highlight(stations) {
+    for (const key in HIDEOUT) {
+        if (!stations.includes(key)) {
+            document.getElementById(HIDEOUT[key].id).classList.add('fadeout');
         }
     }
-    drawLines();
 }
 
-async function buildHideoutTree() {
-    hideout = await (await fetch('./hideout.json')).json();
-
-    for (const k in hideout) {
-        const station = hideout[k];
-        elements.container.appendChild(createStationNode(station));
+function clearSummary() {
+    ELEMENTS.summary.classList.add('hidden');
+    while (ELEMENTS.summary.childElementCount > 1) {
+        ELEMENTS.summary.lastElementChild.remove();
     }
-
-    saveNodeGeometry();
-    drawLines();
 }
 
-function createStationNode(station) {
-    const node = document.createElement('div'); //as HTMLDivElement;
+function showSummary(stations) {
+    // get total requirements
+    const reqs = totalRequirements(stations);
 
-    node.classList.add('station', `lvl${station.lvl}`);
-    node.id = station.id;
-    node.style.gridRow = station.geometry.gridRow;
-    node.style.gridColumn = station.geometry.gridColumn;
-    node.appendChild(createHeaderNode(station.name));
-    node.appendChild(createPrerequisitesList(station.prerequisites));
+    // div that holds the sub-lists for items, skills and traders
+    let reqLists = document.createElement('div');
+    reqLists.classList.add('summary-lists');
 
-    return node;
-}
+    // required items list
+    let list = document.createElement('ul');
+    list.classList.add('prereq-items');
 
-function createHeaderNode(stationName) {
-    const node = document.createElement('div'); //as HTMLDivElement;
-    node.innerText = stationName;
-    node.classList.add('station-name');
-    return node;
-}
-
-function createPrerequisitesList(prerequisites) {
-    const node = document.createElement('div');
-    node.classList.add('prerequisites');
-
-    const itemList = createList(
-        prerequisites.items,
-        ['amount', 'item'],
-        ['prereq-items']
+    // sort by total amount required
+    const itemValues = Object.values(reqs.items).sort((a, b) =>
+        a.amount < b.amount ? 1 : a.amount == b.amount ? 0 : -1
     );
-    itemList && node.appendChild(itemList);
 
-    const skillList = createList(
-        prerequisites.skills,
-        ['name', 'lvl'],
-        ['prereq-skills']
-    );
-    skillList && node.appendChild(skillList);
+    // add items to the list
+    for (const i of itemValues) {
+        const node = document.createElement('li');
+        node.innerText = `${i.amount.toLocaleString('en-US')} ${i.item}`;
+        list.appendChild(node);
+    }
+    reqLists.appendChild(list);
 
-    const traderList = createList(
-        prerequisites.traders,
-        ['name', 'lvl'],
-        ['prereq-traders']
-    );
-    traderList && node.appendChild(traderList);
+    // required skills list
+    list = document.createElement('ul');
+    list.classList.add('prereq-skills');
+    for (const s in reqs.skills) {
+        const node = document.createElement('li');
+        node.innerText = `${reqs.skills[s].name} ${reqs.skills[s].lvl}`;
+        list.appendChild(node);
+    }
+    reqLists.appendChild(list);
 
-    return node;
+    // required traders list
+    list = document.createElement('ul');
+    list.classList.add('prereq-traders');
+    for (const t in reqs.traders) {
+        const node = document.createElement('li');
+        node.innerText = `${reqs.traders[t].name} ${reqs.traders[t].lvl}`;
+        list.appendChild(node);
+    }
+    reqLists.appendChild(list);
+
+    // show summary
+    ELEMENTS.summary.appendChild(reqLists);
+    ELEMENTS.summary.classList.remove('hidden');
 }
 
-function createList(items, descriptionProperties, classes) {
-    if (!items || items.length === 0) return;
+function totalRequirements(stations) {
+    const items = {};
+    const skills = {};
+    const traders = {};
 
-    const node = document.createElement('ul');
-    node.classList.add(...classes);
-
-    for (const item of items) {
-        const itemNode = document.createElement('li');
-        for (const prop of descriptionProperties) {
-            if (isNaN(item[prop])) {
-                itemNode.innerText += `${item[prop]} `;
+    for (const stationId of stations) {
+        for (const i of HIDEOUT[stationId].prerequisites.items) {
+            if (items[i.item]) {
+                items[i.item].amount += i.amount;
             } else {
-                itemNode.innerText += `${item[prop].toLocaleString('en-US')} `;
+                items[i.item] = { ...i };
             }
         }
-        itemNode.innerText = itemNode.innerText.trimEnd();
-        node.appendChild(itemNode);
-    }
 
-    return node;
-}
-
-function saveNodeGeometry() {
-    let rect = elements.container.getBoundingClientRect();
-    const offset = { x: rect.left, y: rect.top };
-
-    for (const c of elements.container.querySelectorAll('div.station')) {
-        rect = c.getBoundingClientRect();
-        const station = hideout[c.id];
-        station.geometry.x = rect.left - offset.x;
-        station.geometry.y = rect.top - offset.y;
-        station.geometry.width = rect.right - rect.left;
-        station.geometry.height = rect.bottom - rect.top;
-    }
-}
-
-function drawLines() {
-    const canvas = elements.canvas;
-    const ctx = canvas.getContext('2d');
-
-    let rect = elements.container.getBoundingClientRect();
-    canvas.width = rect.right - rect.left;
-    canvas.height = rect.bottom - rect.top;
-
-    for (const key in hideout) {
-        const station = hideout[key];
-
-        rect = document.getElementById(station.id).getBoundingClientRect();
-        const isEndHighlighted = store.highlightedStations.has(station.id);
-        const end = {
-            x: Math.floor(station.geometry.x + station.geometry.width / 2),
-            y: Math.floor(station.geometry.y),
-        };
-
-        for (const stationId of station.prerequisites.stations) {
-            rect = document.getElementById(stationId).getBoundingClientRect();
-            const start = {
-                x: Math.floor(
-                    hideout[stationId].geometry.x +
-                        hideout[stationId].geometry.width / 2
-                ),
-                y: Math.ceil(
-                    hideout[stationId].geometry.y +
-                        hideout[stationId].geometry.height
-                ),
-            };
-
-            if (!store.highlightedStations.size) {
-                ctx.strokeStyle = '#fff';
-            } else if (store.highlightedStations.has(stationId)) {
-                if (isEndHighlighted) {
-                    ctx.strokeStyle = '#fff';
-                } else {
-                    ctx.strokeStyle = '#060';
-                }
-            } else {
-                ctx.strokeStyle = '#666';
+        for (const s of HIDEOUT[stationId].prerequisites.skills) {
+            if (!skills[s.name]) {
+                skills[s.name] = { ...s };
             }
-            ctx.lineWidth = 2;
-            ctx.beginPath();
-            ctx.moveTo(start.x, start.y);
-            ctx.lineTo(end.x, end.y);
-            ctx.stroke();
+            if (skills[s.name].lvl < s.lvl) {
+                skills[s.name] = s;
+            }
+        }
+
+        for (const t of HIDEOUT[stationId].prerequisites.traders) {
+            if (!traders[t.name]) {
+                traders[t.name] = { ...t };
+            }
+            if (traders[t.name].lvl < t.lvl) {
+                traders[t.name] = t;
+            }
         }
     }
+    return { items, skills, traders };
 }

@@ -1,0 +1,92 @@
+:root {
+    --color-bg: #181818;
+    --color-text: #ffffff;
+    --color-tier-1: #84d1ff;
+    --color-tier-2: #3737ff;
+    --color-tier-3: #800080;
+    --color-tier-4: #fe5744;
+    --color-trader: #34a565;
+    --color-skill: #d89e00;
+}
+
+svg {
+    width: 1900px;
+    height: auto;
+    background: var(--color-bg);
+}
+
+text {
+    font-size: 14.4px;
+    line-height: 1.25;
+    font-family: Roboto;
+    fill: var(--color-text);
+    fill-opacity: 1;
+    stroke: none;
+}
+
+text.station-name {
+    font-size: 20px;
+}
+
+.req-skill text {
+    fill: var(--color-skill);
+}
+
+.req-trader text {
+    fill: var(--color-trader);
+}
+
+.requirements circle {
+    stroke: none;
+    fill: var(--color-text);
+}
+
+.station {
+    pointer-events: visible;
+    cursor: pointer;
+}
+
+/* .station:hover {
+    opacity: 0.5;
+} */
+
+.station path {
+    stroke-width: 3;
+    fill: none;
+}
+
+.station.tier-1 {
+    stroke: var(--color-tier-1);
+}
+
+.station.tier-2 {
+    stroke: var(--color-tier-2);
+}
+
+.station.tier-3 {
+    stroke: var(--color-tier-3);
+}
+
+.station.tier-4 {
+    stroke: var(--color-tier-4);
+}
+
+.line {
+    stroke-width: 1.5px;
+    stroke: #ffffff;
+}
+
+.line.highlight {
+    stroke: #00ff00;
+    stroke: #9a8866;
+    stroke: #70b035;
+}
+
+.line-border {
+    stroke-width: 10px;
+    stroke: var(--color-bg);
+}
+
+.fadeout {
+    opacity: 0.3;
+}

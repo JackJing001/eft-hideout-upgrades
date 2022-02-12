@@ -218,8 +218,8 @@
             "gridColumn": 9
         }
     },
-    "med_1": {
-        "id": "med_1",
+    "medstation_1": {
+        "id": "medstation_1",
         "name": "medstation",
         "lvl": 1,
         "prerequisites": {
@@ -509,12 +509,12 @@
             "gridColumn": 9
         }
     },
-    "med_2": {
-        "id": "med_2",
+    "medstation_2": {
+        "id": "medstation_2",
         "name": "medstation",
         "lvl": 2,
         "prerequisites": {
-            "stations": ["med_1", "generator_1"],
+            "stations": ["medstation_1", "generator_1"],
             "traders": [
                 {
                     "name": "Therapist",
@@ -788,12 +788,12 @@
             "gridColumn": 11
         }
     },
-    "med_3": {
-        "id": "med_3",
+    "medstation_3": {
+        "id": "medstation_3",
         "name": "medstation",
         "lvl": 3,
         "prerequisites": {
-            "stations": ["med_2"],
+            "stations": ["medstation_2"],
             "traders": [
                 {
                     "name": "Therapist",
@@ -1407,7 +1407,7 @@
             "stations": [
                 "intelligence_1",
                 "security_3",
-                "med_3",
+                "medstation_3",
                 "nutrition_3"
             ],
             "traders": [{ "name": "Mechanic", "lvl": 2 }],
