@@ -127,6 +127,11 @@ function findRequiredStations(stationId) {
 function removeHighlights() {
     for (const key in HIDEOUT) {
         document.getElementById(HIDEOUT[key].id).classList.remove('fadeout');
+
+        for (const reqStation of HIDEOUT[key].prerequisites.stations) {
+            const edgeId = reqStation + '-' + key;
+            ELEMENTS.svg.getElementById(edgeId).classList.remove('fadeout');
+        }
     }
 }
 
@@ -134,6 +139,11 @@ function highlight(stations) {
     for (const key in HIDEOUT) {
         if (!stations.includes(key)) {
             document.getElementById(HIDEOUT[key].id).classList.add('fadeout');
+
+            for (const reqStation of HIDEOUT[key].prerequisites.stations) {
+                const edgeId = reqStation + '-' + key;
+                ELEMENTS.svg.getElementById(edgeId).classList.add('fadeout');
+            }
         }
     }
 }
