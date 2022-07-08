@@ -1,7 +1,7 @@
 {
     "stash_1": {
         "id": "stash_1",
-        "name": "stash",
+        "name": "仓库",
         "lvl": 1,
         "prerequisites": {
             "stations": [],
